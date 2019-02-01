@@ -18,7 +18,9 @@ Vue.component('dynamic-form-field', {
         });
       return value;
     }
-  }, template: `
+  },
+
+  template: `
 	<div class="text-center">
 		<h4 v-if="item.section" class="text-muted text-normal text-uppercase text-center">{{item.section}}</h4>
 		<hr v-if="item.section" class="margin-bottom-1x">
@@ -32,7 +34,8 @@ Vue.component('dynamic-form-field', {
 				  </template>
 			</select>
 
-			<input class="form-control" v-if="item.type=='input'" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-model="item.selected" v-bind:type="item.inputType">
+			<input class="form-control" v-if="item.type==='input' && item.inputType==='number'" step="0.01" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-model="item.selected" v-bind:type="item.inputType">
+			<input class="form-control" v-else-if="item.type==='input'" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-model="item.selected" v-bind:type="item.inputType">
 			
 		</div>
 
