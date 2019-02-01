@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="css/app.css" rel="stylesheet">
+    <!--<link href="http://tfgdev.tfgcorp.co/catalog/view/theme/tfg_corp/stylesheet/styles.css" rel="stylesheet">-->
+    <link href="https://tfgcorp.co/catalog/view/theme/tfg_corp/stylesheet/styles.css" rel="stylesheet">
+    <!--<link href="http://tfgdev.tfgcorp.co/catalog/view/theme/tfg_corp/stylesheet/vendor.min.css" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Get request</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="post.html">Send request</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<main>
+
+
+
+<form method="post" action="http://127.0.0.1:8000/builder/process/" id="builder-selections">
+    <input type='hidden' name='builder' value='DESK'>
+    <div class="container padding-bottom-3x mb-2">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 order-md-2">
+                <!-- Cart Area -->
+                <div id="CartTopImages" class="row">
+                    <div id="img-config-type" class="col-md-2" style="display:none"></div>
+                    <div id="img-leg-style" class="col-md-2" style="display:none"></div>
+                    <div id="img-desk-style" class="col-md-2" style="display:none"></div>
+                </div>
+                <div id="builderCart" class="col-sm-12"></div>
+            </div>
+            <div id="builder-toolbox" class="col-lg-3 col-md-4 order-sm-1">
+                <!-- Builder Toolbox -->
+                <h6 class="text-muted text-normal text-uppercase text-center">Dynamic Builder</h6>
+                <hr class="margin-bottom-1x">
+
+                <!-- START DYNAMIC FORM -->
+                <div id="dynamic-form">
+                    <dynamic-form-field v-for="item in tree" v-bind:item="item"/>
+                </div>
+                <!-- END DYNAMIC FORM -->
+                <hr class="margin-bottom-1x">
+                <input class="btn btn-primary" type="submit">
+            </div>
+            <div id="results" class="col-lg-3 col-md-4 order-sm-1"></div>
+        </div>
+    </div>
+</form>
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- production version, optimized for size and speed -->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+<script src="js/app.js?v=0.1.0"></script>
+</body>
+</html>
