@@ -33,7 +33,7 @@
 
 
 <main>
-  <form id="builder-selections">
+  <form onsubmit="send();return false;" id="builder-selections">
     <input type='hidden' name='builder' value='DESK'>
     <div class="container padding-bottom-3x mb-2">
       <div class="row">
@@ -59,7 +59,10 @@
           <hr class="margin-bottom-1x">
           <input class="btn btn-primary" type="submit">
         </div>
-        <div id="results" class="col-lg-9 col-md-8 order-sm-11"></div>
+        <div  class="col-lg-9 col-md-8 order-sm-11">
+          <span id="form-data"></span>
+          <span id="results"></span>
+        </div>
       </div>
     </div>
   </form>

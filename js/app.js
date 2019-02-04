@@ -26,7 +26,7 @@ Vue.component('dynamic-form-field', {
 		<hr v-if="item.section" class="margin-bottom-1x">
 		<div v-if="item.name" class="form-group" v-bind:class="{ required: item.requiredField, 'text-danger': item.hasError }">
 			<label class="control-label text-center" v-bind:for="item.name"> {{item.title}} </label>
-			<select class="form-control select2 select2-hidden-accessible" v-if="item.type=='select'" v-bind:name="item.name" v-bind:id="item.name" v-model="item.selected">
+			<select class="form-control select2 select2-hidden-accessible" v-if="item.type=='select'" v-bind:name="item.name" v-bind:id="item.name" v-bind:required="item.requiredField" v-model="item.selected">
 				<option value="" selected> --- Please Select --- </option>
 				  <template v-for="value in item.values">
 				  <optgroup v-if="value.optgroup_title" v-bind:label="value.optgroup_title"></optgroup>
@@ -34,8 +34,8 @@ Vue.component('dynamic-form-field', {
 				  </template>
 			</select>
 
-			<input class="form-control" v-if="item.type==='input' && item.inputType==='number'" step="0.01" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-model="item.selected" v-bind:type="item.inputType">
-			<input class="form-control" v-else-if="item.type==='input'" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-model="item.selected" v-bind:type="item.inputType">
+			<input class="form-control" v-if="item.type==='input' && item.inputType==='number'" step="0.01" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-bind:required="item.requiredField" v-model="item.selected" v-bind:type="item.inputType">
+			<input class="form-control" v-else-if="item.type==='input'" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-bind:required="item.requiredField" v-model="item.selected" v-bind:type="item.inputType">
 			
 		</div>
 
@@ -75,76 +75,26 @@ var app = new Vue({
 app.getTree();
 // MOCK
 
+function send() {
+  var form = $("form").serializeArray();
 
-var parameters = getAllUrlParams(window.location.href);
-var output = '<p>formData = {<br>';
-for (var property in parameters) {
-  if (parameters[property]) {
-    output += '&nbsp;&nbsp;&nbsp;&nbsp;"' + property + '": <strong>"' + parameters[property] + '",</strong><br>';
-  }
-}
-output += '}</p>';
-
-$('#results').html(output);
-
-function getAllUrlParams(url) {
-
-  // get query string from url (optional) or window
-  var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
-
-  // we'll store the parameters here
-  var obj = {};
-
-  // if query string exists
-  if (queryString) {
-
-    // stuff after # is not part of query string, so get rid of it
-    queryString = queryString.split('#')[0];
-
-    // split our query string into its component parts
-    var arr = queryString.split('&');
-
-    for (var i = 0; i < arr.length; i++) {
-      // separate the keys and the values
-      var a = arr[i].split('=');
-
-      // set parameter name and value (use 'true' if empty)
-      var paramName = a[0];
-      var paramValue = typeof (a[1]) === 'undefined' ? true : a[1];
-
-      // if the paramName ends with square brackets, e.g. colors[] or colors[2]
-      if (paramName.match(/\[(\d+)?\]$/)) {
-
-        // create key if it doesn't exist
-        var key = paramName.replace(/\[(\d+)?\]/, '');
-        if (!obj[key]) obj[key] = [];
-
-        // if it's an indexed array e.g. colors[2]
-        if (paramName.match(/\[\d+\]$/)) {
-          // get the index value and add the entry at the appropriate position
-          var index = /\[(\d+)\]/.exec(paramName)[1];
-          obj[key][index] = paramValue;
-        } else {
-          // otherwise add the value to the end of the array
-          obj[key].push(paramValue);
-        }
-      } else {
-        // we're dealing with a string
-        if (!obj[paramName]) {
-          // if it doesn't exist, create property
-          obj[paramName] = paramValue;
-        } else if (obj[paramName] && typeof obj[paramName] === 'string') {
-          // if property does exist and it's a string, convert it to an array
-          obj[paramName] = [obj[paramName]];
-          obj[paramName].push(paramValue);
-        } else {
-          // otherwise add the property
-          obj[paramName].push(paramValue);
-        }
-      }
+  var output = '<p>{ "form_data" : {<br>';
+  for (var element in form) {
+    if ((form[element].value)) {
+      output += '&nbsp;&nbsp;&nbsp;&nbsp;"' + form[element].name + '": <strong>"' + form[element].value + '",</strong><br>';
     }
   }
-
-  return obj;
+  output += '},</p>';
+  $('#form-data').html(output);
+  var response = '';
+  $.ajax({
+    'url': "http://127.0.0.1:8000/builder/process/",
+    'method': 'POST',
+    data: form,
+    success: function (data, textStatus, jqXHR) {
+      var response = document.createTextNode(JSON.stringify(data));
+      $('#results').html('<p>"response": ' + response.wholeText + '<br>}</p>');
+    }
+  });
+  $('html, body').animate({scrollTop: 0}, 'fast');
 }
-
