@@ -1,0 +1,162 @@
+{
+  "config": {
+    "test_type": "HTML-Tester-Template",
+    "url": "http://127.0.0.1:8080/post.html"
+  },
+  "test_cases": [
+    {
+      "form_data": {
+        "builder": "DESK",
+        "product_group": "123132",
+        "desk_config_type": "single",
+        "desk_style": "DESK-BFLD",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "desk_modesty": "18"
+      },
+      "response": {
+        "items": {
+          "desk": {
+            "model": "DESK-BFLD-36-72-18M",
+            "price": 446,
+            "name": "36/30D X 72W 28.5 Bow Front Laminate Desk Shell with 18H Modesty"
+          }
+        },
+        "errors": {}
+      }
+    },
+    {
+      "form_data": {
+        "product_group": "123132",
+        "desk_config_type": "single",
+        "desk_style": "DESK-BFLD",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "desk_modesty": "18"
+      },
+      "response": {
+        "items": {
+          "desk": {
+            "model": "DESK-BFLD-36-72-18M",
+            "price": 446,
+            "name": "36/30D X 72W 28.5 Bow Front Laminate Desk Shell with 18H Modesty"
+          }
+        },
+        "errors": {}
+      }
+    },
+    {
+      "form_data": {
+        "builder": "DESK",
+        "product_group": "123",
+        "desk_config_type": "l_shape_left",
+        "desk_style": "DESK-RRFLD",
+        "desk_width": "76",
+        "desk_depth": "36",
+        "desk_modesty": "18",
+        "desk_pedestal_1": "SPED-BF",
+        "return_width": "42",
+        "return_depth": "24",
+        "return_modesty": "18",
+        "sped": "SPED-BF",
+        "oped": "OPED-BFOR",
+        "oped_width": "32",
+        "mped": "MPED-BBL",
+        "mped_width": "36"
+      },
+      "response": {
+        "items": {
+          "desk": {
+            "model": "DESK-RRFLD-36-76-18M",
+            "price": 425,
+            "name": "36D X 76W 28.5 Rectangular Recessed Front Laminate Desk Shell with 18H Modesty"
+          },
+          "return": {
+            "model": "DESK-RRTNR-24-42-18M",
+            "price": 215.83333333333334,
+            "name": "24D X 42W 28.5 Rectangular Right Return Shell with 18H Modesty"
+          },
+          "desk_pedestal_1": {
+            "model": "SPED-BFD-24",
+            "name": "23D X 16W x Box-File Standard Pedestal",
+            "price": 246
+          }
+        },
+        "errors": {}
+      }
+    },
+    {
+      "form_data": {
+        "builder": "DESK",
+        "product_group": "123",
+        "desk_config_type": "l_shape_left",
+        "desk_style": "DESK-RRFLD",
+        "desk_width": "76",
+        "desk_depth": "36",
+        "desk_modesty": "18",
+        "desk_pedestal_1": "SPED-BF",
+        "return_width": "42",
+        "return_depth": "24",
+        "return_modesty": "18",
+        "sped": "SPED-BF",
+        "oped": "OPED-BFOR",
+        "oped_width": "32",
+        "mped": "MPED-BBL",
+        "mped_width": "36"
+      },
+      "response": {
+        "items": {
+          "desk": {
+            "model": "DESK-RRFLD-36-76-18M",
+            "price": 425,
+            "name": "36D X 76W 28.5 Rectangular Recessed Front Laminate Desk Shell with 18H Modesty"
+          },
+          "return": {
+            "model": "DESK-RRTNR-24-42-18M",
+            "price": 215.83333333333334,
+            "name": "24D X 42W 28.5 Rectangular Right Return Shell with 18H Modesty"
+          },
+          "desk_pedestal_1": {
+            "model": "SPED-BFD-24",
+            "name": "23D X 16W x Box-File Standard Pedestal",
+            "price": 246
+          }
+        },
+        "errors": {}
+      }
+    },
+    {
+      "form_data": {
+        "builder": "DESK",
+        "product_group": "123",
+        "desk_config_type": "single",
+        "desk_style": "DESK-BFLD",
+        "desk_width": "73",
+        "desk_depth": "36",
+        "desk_modesty": "18",
+        "desk_pedestal_1": "SPED-PD",
+        "desk_pedestal_2": "SPED-BF"
+      },
+      "response": {
+        "items": {
+          "desk": {
+            "model": "DESK-BFLD-36-73-18M",
+            "price": 450.25,
+            "name": "36/30D X 73W 28.5 Bow Front sfdhsfdghfdsgdsfgdsfgdsf Desk Shell with 18H Modesty"
+          },
+          "desk_pedestal_1": {
+            "model": "SPED-PDD-24",
+            "name": "23D X 16W x 6H Pencil Drawer Standard Pedestal",
+            "price": 246
+          },
+          "desk_pedestal_2": {
+            "model": "SPED-BFD-24",
+            "name": "23D X 16W x Box-File Standard Pedestal",
+            "price": 246
+          }
+        },
+        "errors": {}
+      }
+    }
+  ]
+}
