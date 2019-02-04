@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node_modules/http-server/bin/http-server"
+    "serve": "node node_modules/http-server/bin/http-server"
   },
   "keywords": [],
   "author": "",
