@@ -24,10 +24,10 @@
       <li class="nav-item">
         <a class="nav-link" href="index.html">Get request</a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="post.html">Send request</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="test.html">Test request</a>
       </li>
     </ul>
@@ -36,13 +36,11 @@
 
 
 <main>
-
-
-  <form method="post" action="http://127.0.0.1:8000/builder/process/" id="builder-selections">
+  <form onsubmit="send();return false;" id="builder-selections">
     <input type='hidden' name='builder' value='DESK'>
     <div class="container padding-bottom-3x mb-2">
       <div class="row">
-        <div class="col-lg-9 col-md-8 order-md-2">
+        <div class="col-12">
           <!-- Cart Area -->
           <div id="CartTopImages" class="row">
             <div id="img-config-type" class="col-md-2" style="display:none"></div>
@@ -58,13 +56,16 @@
 
           <!-- START DYNAMIC FORM -->
           <div id="dynamic-form">
-            <dynamic-form-field v-for="item in tree" v-bind:item="item"/>
+            <dynamic-form-field v-for="item in tree" v-bind:item="item"></dynamic-form-field>
           </div>
           <!-- END DYNAMIC FORM -->
           <hr class="margin-bottom-1x">
           <input class="btn btn-primary" type="submit">
         </div>
-        <div id="results" class="col-lg-3 col-md-4 order-sm-1"></div>
+        <div  class="col-lg-9 col-md-8 order-sm-11">
+          <span id="form-data"></span>
+          <span id="results"></span>
+        </div>
       </div>
     </div>
   </form>
@@ -80,6 +81,7 @@
         crossorigin="anonymous"></script>
 <!-- development version, includes helpful console warnings -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--<script src="node_modules/vue/dist/vue.min.js"></script>-->
 <!-- production version, optimized for size and speed -->
 <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
 <script src="js/app.js?v=0.1.0"></script>
