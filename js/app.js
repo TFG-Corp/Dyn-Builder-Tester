@@ -151,23 +151,14 @@ function getAllUrlParams(url) {
 function send() {
   var form = $("form").serializeArray();
 
-  var output = '<p>{ "form_data" : {<br>';
+  var output = '<p> { "form_data" : {<br>';
   for (var element in form) {
     if ((form[element].value)) {
       output += '&nbsp;&nbsp;&nbsp;&nbsp;"' + form[element].name + '": <strong>"' + form[element].value + '",</strong><br>';
     }
   }
-  output += '},</p>';
-  $('#form-data').html(output);
+  output += '},"response":{}},</p>';
+  $('#form-data').append(output);
   var response = '';
-  $.ajax({
-    'url': "http://127.0.0.1:8000/builder/process/",
-    'method': 'POST',
-    data: form,
-    success: function (data, textStatus, jqXHR) {
-      var response = document.createTextNode(JSON.stringify(data));
-      $('#results').html('<p>"response": ' + response.wholeText + '<br>}</p>');
-    }
-  });
   $('html, body').animate({scrollTop: 0}, 'fast');
 }
