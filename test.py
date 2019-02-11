@@ -37,7 +37,7 @@ for test_case in tests['test_cases']:
         response = json.loads(elem.text)
         print(json.dumps(response, indent=4, sort_keys=True))
     except:
-        print("Test " + test_case['form_data']['product_group'] + " failed!!!")
+        print('\033[91m' "Test " + test_case['form_data']['product_group'] + " failed!!!"'\033[0m')
 
     # assert test_case['response'] == json.loads(elem.text), "Test case with the following data failed \n " + json.dumps(
     #     test_case,
