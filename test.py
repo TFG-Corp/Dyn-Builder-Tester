@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 
-with open('test.json') as file:
+with open('single.json') as file:
     tests = json.load(file)
 
 driver = webdriver.Chrome()
@@ -51,4 +51,4 @@ for test_case in tests['test_cases']:
     #     indent=4, sort_keys=True)
 
 driver.close()
-print("Test passed successfully 👍")
+print("Test Completed 👍")
