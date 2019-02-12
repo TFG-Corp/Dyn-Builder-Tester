@@ -147,9 +147,11 @@ function getAllUrlParams(url) {
   return obj;
 }
 
-
+var index = 0;
 function send() {
+  index++;
   var form = $("form").serializeArray();
+  form[1].value = form[1].value + index;
 
   var output = '<p> { "form_data" : {<br>';
   for (var element in form) {

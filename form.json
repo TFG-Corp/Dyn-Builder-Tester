@@ -1112,7 +1112,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1121,7 +1121,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -1130,7 +1130,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1146,7 +1146,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1155,7 +1155,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -1164,7 +1164,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1180,7 +1180,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1189,7 +1189,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -1198,7 +1198,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1214,7 +1214,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1223,7 +1223,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -1232,7 +1232,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1248,7 +1248,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1257,7 +1257,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -1266,7 +1266,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1282,7 +1282,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "bsc_height",
+										"name" : "bsc_height_1",
 										"title" : "Stroace Cabinet Height",
 										"min" : "42",
 										"max" : "96",
@@ -1291,7 +1291,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_width",
+										"name" : "bsc_width_1",
 										"title" : "Stroace Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -1300,7 +1300,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bsc_depth_1",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "19",
 										"max" : "24",
@@ -1371,7 +1371,7 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "bsc_depth",
+										"name" : "bc_depth",
 										"title" : "Stroace Cabinet Depth",
 										"min" : "12",
 										"max" : "18",

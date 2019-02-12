@@ -1,4 +1,5 @@
 import json
+import pandas
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
@@ -35,9 +36,15 @@ for test_case in tests['test_cases']:
 
     try:
         response = json.loads(elem.text)
+        # frame = {'items':'','erros':''}
+        # df = pandas.DataFrame.from_dict(response, orient='index')
+        #df = pandas.DataFrame(data=response['items'])
         print(json.dumps(response, indent=4, sort_keys=True))
+        # print(df.to_string())
+        #df.to_csv(r'C:\Users\Josh\Desktop\test - ' + test_case['form_data']['product_group'] + '.csv')
     except:
-        print('\033[91m' "Test " + test_case['form_data']['product_group'] + " failed!!!"'\033[0m')
+        print('\033[91m' "Test " + test_case['form_data']['product_group'] + " failed!!!" '\033[0m')
+        print('\033[91m' + elem.text + '\033[0m')
 
     # assert test_case['response'] == json.loads(elem.text), "Test case with the following data failed \n " + json.dumps(
     #     test_case,
