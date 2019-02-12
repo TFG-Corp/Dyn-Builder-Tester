@@ -34,7 +34,7 @@ Vue.component('dynamic-form-field', {
 				  </template>
 			</select>
 
-			<input class="form-control" v-if="item.type==='input' && item.inputType==='number'" step="0.01" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-bind:required="item.requiredField" v-model="item.selected" v-bind:type="item.inputType">
+			<input class="form-control" v-if="item.type==='input' && item.inputType==='number'" step="1" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-bind:required="item.requiredField" v-model="item.selected" v-bind:type="item.inputType">
 			<input class="form-control" v-else-if="item.type==='input'" v-bind:name="item.name" v-bind:min="item.min" v-bind:max="item.max" v-bind:required="item.requiredField" v-model="item.selected" v-bind:type="item.inputType">
 			
 		</div>
