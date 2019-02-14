@@ -44,6 +44,13 @@ for test_case in tests['test_cases']:
         #df.to_csv(r'C:\Users\Josh\Desktop\test - ' + test_case['form_data']['product_group'] + '.csv')
     except:
         print('\033[91m' "Test " + test_case['form_data']['product_group'] + " failed!!!" '\033[0m')
+        # elem = wait.until(expected_conditions.element_to_be_clickable((By.ID, 'summary')))
+        elem = wait.until(expected_conditions.element_to_be_clickable((By.CSS_SELECTOR, 'tr:nth-child(6)')))
+        print('\033[91m' + elem.text + '\033[0m')
+        elem = wait.until(expected_conditions.element_to_be_clickable((By.TAG_NAME, 'h1')))
+        elem = wait.until(expected_conditions.element_to_be_clickable((By.TAG_NAME, 'h1')))
+        print('\033[91m' + elem.text + '\033[0m')
+        elem = wait.until(expected_conditions.element_to_be_clickable((By.TAG_NAME, 'pre')))
         print('\033[91m' + elem.text + '\033[0m')
 
     # assert test_case['response'] == json.loads(elem.text), "Test case with the following data failed \n " + json.dumps(
