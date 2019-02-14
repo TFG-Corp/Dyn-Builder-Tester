@@ -2211,7 +2211,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2227,7 +2227,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2243,7 +2243,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2259,7 +2259,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2275,7 +2275,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2291,7 +2291,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2307,7 +2307,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2323,7 +2323,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2339,7 +2339,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2355,7 +2355,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2371,7 +2371,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2387,7 +2387,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2406,7 +2406,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2422,7 +2422,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2438,7 +2438,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2454,7 +2454,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2470,7 +2470,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2486,7 +2486,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2502,7 +2502,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -2521,7 +2521,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -2537,7 +2537,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -2553,7 +2553,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -2569,7 +2569,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -2585,7 +2585,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -2601,7 +2601,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -2823,7 +2823,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2839,7 +2839,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2855,7 +2855,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2871,7 +2871,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2887,7 +2887,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2903,7 +2903,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2919,7 +2919,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2935,7 +2935,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2951,7 +2951,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2967,7 +2967,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2983,7 +2983,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -2999,7 +2999,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -3018,7 +3018,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3034,7 +3034,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3050,7 +3050,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3066,7 +3066,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3082,7 +3082,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3098,7 +3098,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3114,7 +3114,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -3133,7 +3133,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -3149,7 +3149,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -3165,7 +3165,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -3181,7 +3181,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -3197,7 +3197,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -3213,7 +3213,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -6700,7 +6700,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6716,7 +6716,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6732,7 +6732,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6748,7 +6748,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6764,7 +6764,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6780,7 +6780,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6796,7 +6796,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6812,7 +6812,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6828,7 +6828,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6844,7 +6844,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6860,7 +6860,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6876,7 +6876,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -6895,7 +6895,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6911,7 +6911,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6927,7 +6927,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6943,7 +6943,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6959,7 +6959,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6975,7 +6975,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -6991,7 +6991,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7010,7 +7010,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7026,7 +7026,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7042,7 +7042,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7058,7 +7058,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7074,7 +7074,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -7090,7 +7090,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -7312,7 +7312,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7328,7 +7328,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7344,7 +7344,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7360,7 +7360,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7376,7 +7376,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7392,7 +7392,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7408,7 +7408,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7424,7 +7424,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7440,7 +7440,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7456,7 +7456,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7472,7 +7472,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7488,7 +7488,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -7507,7 +7507,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7523,7 +7523,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7539,7 +7539,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7555,7 +7555,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7571,7 +7571,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7587,7 +7587,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7603,7 +7603,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -7622,7 +7622,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7638,7 +7638,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7654,7 +7654,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7670,7 +7670,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -7686,7 +7686,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -7702,7 +7702,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -11204,7 +11204,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11220,7 +11220,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11236,7 +11236,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11252,7 +11252,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11268,7 +11268,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11284,7 +11284,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11300,7 +11300,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11316,7 +11316,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11332,7 +11332,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11348,7 +11348,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11364,7 +11364,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11380,7 +11380,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11399,7 +11399,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11415,7 +11415,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11431,7 +11431,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11447,7 +11447,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11463,7 +11463,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11479,7 +11479,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11495,7 +11495,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -11514,7 +11514,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -11530,7 +11530,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -11546,7 +11546,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -11562,7 +11562,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -11578,7 +11578,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -11594,7 +11594,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -11816,7 +11816,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11832,7 +11832,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11848,7 +11848,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11864,7 +11864,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11880,7 +11880,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11896,7 +11896,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11912,7 +11912,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11928,7 +11928,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11944,7 +11944,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11960,7 +11960,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11976,7 +11976,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -11992,7 +11992,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -12011,7 +12011,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12027,7 +12027,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12043,7 +12043,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12059,7 +12059,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12075,7 +12075,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12091,7 +12091,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12107,7 +12107,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -12126,7 +12126,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -12142,7 +12142,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -12158,7 +12158,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -12174,7 +12174,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -12190,7 +12190,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -12206,7 +12206,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -14063,7 +14063,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14079,7 +14079,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14095,7 +14095,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14111,7 +14111,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14127,7 +14127,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14143,7 +14143,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14159,7 +14159,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14175,7 +14175,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14191,7 +14191,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14207,7 +14207,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14223,7 +14223,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14239,7 +14239,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "oped_width_1",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14258,7 +14258,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14274,7 +14274,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14290,7 +14290,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14306,7 +14306,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14322,7 +14322,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14338,7 +14338,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14354,7 +14354,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "mped_width_1",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14373,7 +14373,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -14389,7 +14389,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -14405,7 +14405,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -14421,7 +14421,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -14437,7 +14437,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -14453,7 +14453,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_1",
+										"name" : "sc_width_1",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
@@ -14675,7 +14675,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14691,7 +14691,7 @@
 								"image" : "image/catalog/builder-images/OPED-BFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14707,7 +14707,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14723,7 +14723,7 @@
 								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14739,7 +14739,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14755,7 +14755,7 @@
 								"image" : "image/catalog/builder-images/OPED-FFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14771,7 +14771,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14787,7 +14787,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14803,7 +14803,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14819,7 +14819,7 @@
 								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14835,7 +14835,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14851,7 +14851,7 @@
 								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "oped_width_2",
 										"title" : "OPED Width",
 										"min" : "30",
 										"max" : "60",
@@ -14870,7 +14870,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14886,7 +14886,7 @@
 								"image" : "image/catalog/builder-images/MPED-LL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14902,7 +14902,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14918,7 +14918,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14934,7 +14934,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14950,7 +14950,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14966,7 +14966,7 @@
 								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "mped_width_2",
 										"title" : "MPED Width",
 										"min" : "30",
 										"max" : "36",
@@ -14985,7 +14985,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -15001,7 +15001,7 @@
 								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -15017,7 +15017,7 @@
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -15033,7 +15033,7 @@
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "24",
@@ -15049,7 +15049,7 @@
 								"image" : "image/catalog/builder-images/BSC-OBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "12",
 										"max" : "36",
@@ -15065,7 +15065,7 @@
 								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
 								"children" : [
 									{
-										"name" : "return_storage_width_2",
+										"name" : "sc_width_2",
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
