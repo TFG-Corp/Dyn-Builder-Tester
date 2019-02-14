@@ -10,14 +10,15 @@
         "product_group": "single1",
         "desk_config_type": "single",
         "desk_style": "DESK-RRFLD",
-        "desk_width": "72",
+        "desk_width": "60",
         "desk_depth": "30",
         "desk_modesty": "12",
         "desk_pedestal_1": "SPED-PD",
         "desk_pedestal_2": "SPED-BF",
-        "additional_storage1": "FILING-3DR",
-        "filing_width": "36",
-        "filing_depth": "20"
+        "above_desk_1": "SSC-OSSC",
+        "storage_for_what": "desk",
+        "above_desk_height_1": "43",
+        "above_desk_width_1": "36"
       },
       "response": {}
     },
@@ -26,15 +27,16 @@
         "builder": "DESK",
         "product_group": "single2",
         "desk_config_type": "single",
-        "desk_style": "DESK-RFFLD",
+        "desk_style": "DESK-RRFLD",
         "desk_width": "60",
-        "desk_depth": "36",
-        "desk_modesty": "18",
-        "desk_pedestal_1": "SPED-HBF",
-        "desk_pedestal_2": "SPED-BBF",
-        "additional_storage1": "FILING-4DR",
-        "filing_width": "30",
-        "filing_depth": "20"
+        "desk_depth": "30",
+        "desk_modesty": "12",
+        "desk_pedestal_1": "SPED-BBF",
+        "desk_pedestal_2": "SPED-HBF",
+        "above_desk_1": "SSC-RDSSC",
+        "storage_for_what": "credenza",
+        "above_desk_height_1": "44",
+        "above_desk_width_1": "36"
       },
       "response": {}
     },
@@ -43,15 +45,16 @@
         "builder": "DESK",
         "product_group": "single3",
         "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "FILING-5DR",
-        "filing_width": "24",
-        "filing_depth": "20"
+        "desk_style": "DESK-RRFLD",
+        "desk_width": "60",
+        "desk_depth": "30",
+        "desk_modesty": "12",
+        "desk_pedestal_1": "SPED-BBF",
+        "desk_pedestal_2": "SPED-HBF",
+        "above_desk_1": "HUTCH-STD",
+        "above_desk_height_1": "37",
+        "above_desk_width_1": "72",
+        "tackboard_1": "yes"
       },
       "response": {}
     },
@@ -60,16 +63,15 @@
         "builder": "DESK",
         "product_group": "single4",
         "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "LSTA-LL",
-        "lst_height": "66",
-        "lst_width": "30",
-        "lst_depth": "20"
+        "desk_style": "DESK-RRFLD",
+        "desk_width": "60",
+        "desk_depth": "30",
+        "desk_modesty": "12",
+        "desk_pedestal_1": "SPED-BBF",
+        "desk_pedestal_2": "SPED-HBF",
+        "above_desk_1": "HUTCH-HWM",
+        "above_desk_width_1": "72",
+        "tackboard_1": "No"
       },
       "response": {}
     },
@@ -78,16 +80,15 @@
         "builder": "DESK",
         "product_group": "single5",
         "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
+        "desk_style": "DESK-RFFLD",
         "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
+        "desk_depth": "22",
+        "desk_modesty": "18",
+        "desk_pedestal_1": "SPED-MBF",
         "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "LSTA-BBL",
-        "lst_height": "66",
-        "lst_width": "30",
-        "lst_depth": "20"
+        "above_desk_1": "HUTCH-LWMC",
+        "above_desk_width_1": "72",
+        "tackboard_1": "yes"
       },
       "response": {}
     },
@@ -97,475 +98,14 @@
         "product_group": "single6",
         "desk_config_type": "single",
         "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
+        "desk_width": "84",
+        "desk_depth": "42",
         "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
+        "desk_pedestal_1": "SPED-MBF",
         "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "LSTA-BBFL",
-        "lst_height": "72",
-        "lst_width": "36",
-        "lst_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single7",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "LSTA-BBBBL",
-        "lst_height": "48",
-        "lst_width": "30",
-        "lst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single8",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTSL",
-        "ped_style": "BBF",
-        "hand": "RIGHT",
-        "pst_height": "50",
-        "pst_width": "24",
-        "pst_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single9",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTSLC",
-        "ped_style": "BBF",
-        "hand": "RIGHT",
-        "pst_height": "66",
-        "pst_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single10",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTOPEN",
-        "ped_style": "BBF",
-        "pst_height": "72",
-        "pst_width": "30",
-        "pst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single11",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTOLC",
-        "ped_style": "BBF",
-        "hand": "LEFT",
-        "pst_height": "42",
-        "pst_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single12",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTFL",
-        "ped_style": "BBF",
-        "pst_height": "72",
-        "pst_width": "24",
-        "pst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single13",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTFLC",
-        "ped_style": "BBF",
-        "hand": "LEFT",
-        "pst_height": "72",
-        "pst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single14",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTFD",
-        "ped_style": "BBF",
-        "hand": "LEFT",
-        "pst_height": "50",
-        "pst_width": "24",
-        "pst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single15",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "PSTFDC",
-        "ped_style": "BBF",
-        "hand": "LEFT",
-        "pst_height": "72",
-        "pst_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single16",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-SWC-2S",
-        "ward_height": "72",
-        "ward_width": "36",
-        "ward_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single17",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-SWC-1S",
-        "ward_height": "66",
-        "ward_width": "36",
-        "ward_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single18",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-RHWC-2S",
-        "ward_height": "72",
-        "ward_width": "36",
-        "ward_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single19",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-LHWC-2S",
-        "ward_height": "96",
-        "ward_width": "36",
-        "ward_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single20",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-LHWC-1S",
-        "ward_height": "66",
-        "ward_width": "36",
-        "ward_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single21",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "WARD-LHWC-1S",
-        "ward_height": "66",
-        "ward_width": "36",
-        "ward_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single22",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "HOBSC-RDHOBSC",
-        "bsc_height": "66",
-        "bsc_width": "24",
-        "bsc_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single23",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "HOBSC-LDHOBSC",
-        "bsc_height": "66",
-        "bsc_width": "24",
-        "bsc_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single24",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BSC-RDBSC",
-        "bsc_height": "42",
-        "bsc_width": "24",
-        "bsc_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single25",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BSC-OBSC",
-        "bsc_height": "72",
-        "bsc_width": "36",
-        "bsc_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single26",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BSC-LDBSC",
-        "bsc_height": "72",
-        "bsc_width": "24",
-        "bsc_depth": "24"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single27",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BSC-2DBSC",
-        "bsc_height": "72",
-        "bsc_width": "30",
-        "bsc_depth": "20"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single28",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BC-SB",
-        "bc_height": "72",
-        "bc_width": "30",
-        "bc_depth": "12"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single29",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BC-MB",
-        "bc_height": "66",
-        "bc_width": "33",
-        "bc_depth": "15"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single30",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BC-BDSB",
-        "bc_height": "50",
-        "bc_width": "24",
-        "bc_depth": "18"
-      },
-      "response": {}
-    },
-    {
-      "form_data": {
-        "builder": "DESK",
-        "product_group": "single31",
-        "desk_config_type": "single",
-        "desk_style": "DESK-BFLD",
-        "desk_width": "72",
-        "desk_depth": "36",
-        "desk_modesty": "28",
-        "desk_pedestal_1": "SPED-FF",
-        "desk_pedestal_2": "SPED-MBF",
-        "additional_storage1": "BC-BDMB",
-        "bc_height": "66",
-        "bc_width": "34",
-        "bc_depth": "12"
+        "above_desk_1": "HUTCH-HWMCDOR",
+        "above_desk_width_1": "72",
+        "tackboard_1": "No"
       },
       "response": {}
     }
