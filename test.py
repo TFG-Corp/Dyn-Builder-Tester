@@ -16,6 +16,11 @@ for test_case in tests['test_cases']:
 
     driver.get(tests['config']['url'])
 
+    wait = WebDriverWait(driver, 10)
+    elem = wait.until(expected_conditions.element_to_be_clickable((By.ID, 'builder-type')))
+    select = Select(elem)
+    select.select_by_value(test_case['form_data']['builder'])
+
     for key, value in test_case['form_data'].items():
         if key != 'builder':
             wait = WebDriverWait(driver, 10)
@@ -23,7 +28,7 @@ for test_case in tests['test_cases']:
             elem_class = elem.get_attribute('class')
 
             if elem_class == 'form-control select2 select2-hidden-accessible':
-                select = Select(driver.find_element_by_name(key))
+                select = Select(elem)
                 select.select_by_value(value)
             else:
                 elem.send_keys(value)

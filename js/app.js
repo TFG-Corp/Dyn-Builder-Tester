@@ -49,30 +49,7 @@ Vue.component('dynamic-form-field', {
 
 });
 
-var app = new Vue({
-  el: '#dynamic-form',
-  data: {
-    tree: []
-  },
-  methods: {
-    getTree: function (data = null) {
-      data = {builder: "DESK"};
-      $.ajax({
-        // url: 'http://127.0.0.1:8000/builder/form/',
-        url: 'form.json',
-        // data: data,
-        method: 'GET',
-        success: function (data) {
-          app.tree = data;
-        },
-        error: console.log
-      });
-    }
-  }
-});
 
-
-app.getTree();
 // MOCK
 
 var parameters = getAllUrlParams(window.location.href);
@@ -164,3 +141,34 @@ function send() {
   var response = '';
   $('html, body').animate({scrollTop: 0}, 'fast');
 }
+
+var app;
+
+$("#builder-type").change(function () {
+  $("input[name='builder']").val($("#builder-type").val())
+  console.log('$("input[name=\'builder\']").val() changed')
+
+  app = new Vue({
+  el: '#dynamic-form',
+  data: {
+    tree: []
+  },
+  methods: {
+    getTree: function (data = null) {
+      $.ajax({
+        // url: 'http://127.0.0.1:8000/builder/form/',
+        url: $("#builder-type").val()+'.json',
+        // data: data,
+        method: 'GET',
+        success: function (data) {
+          app.tree = data;
+        },
+        error: console.log
+      });
+    }
+  }
+});
+
+app.getTree();
+
+});
