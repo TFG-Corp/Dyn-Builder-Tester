@@ -111,22 +111,60 @@
 						]
 					},
 					{
-						"name" : "desk_modesty",
-						"title" : "Desk Modesty",
+						"name" : "corner_support",
+						"title" : "Corner Support",
 						"type" : "select",
 						"requiredField" : "true",
 						"values" : [
 							{
-								"name" : "12",
-								"title" : "12"
+								"name" : "modesty",
+								"title" : "Modesty Support",
+								"image" : "image/catalog/builder-images/Desk-RF.png",
+								"children" : [
+									{
+										"name" : "desk_modesty",
+										"title" : "Desk Modesty",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "12",
+												"title" : "12"
+											},
+											{
+												"name" : "18",
+												"title" : "18"
+											},
+											{
+												"name" : "28",
+												"title" : "28"
+											}
+										]
+									}
+								]
 							},
 							{
-								"name" : "18",
-								"title" : "18"
+								"name" : "t-leg",
+								"title" : "T-Leg Support",
+								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+							}
+						]
+					},
+					{
+						"name" : "end_support",
+						"title" : "End Support",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "post_leg",
+								"title" : "Post Leg",
+								"image" : "image/catalog/builder-images/Desk-RF.png"
 							},
 							{
-								"name" : "28",
-								"title" : "28"
+								"name" : "t-leg",
+								"title" : "T-Leg Support",
+								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
 							}
 						]
 					},
