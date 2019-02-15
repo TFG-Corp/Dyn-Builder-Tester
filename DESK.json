@@ -1915,14 +1915,14 @@
 						]
 					},
 					{
-						"name" : "lower_credenza",
+						"name" : "additional_storage1",
 						"title" : "Lower Bench Credenza",
 						"type" : "select",
 						"values" : [
 							{
-								"name" : "BCR-OPEN",
+								"name" : "LBC-OPEN",
 								"title" : "Open Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/BCR-OPEN.png\r\n",
+								"image" : "image/catalog/builder-images/LBC-OPEN.png\r\n",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -1945,9 +1945,9 @@
 								]
 							},
 							{
-								"name" : "BCR-BFOR",
+								"name" : "LBC-BFOR",
 								"title" : "Half Open lower Bench Credenza-Right",
-								"image" : "image/catalog/builder-images/BCR-BFOR.png",
+								"image" : "image/catalog/builder-images/LBC-BFOR.png",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -1970,9 +1970,9 @@
 								]
 							},
 							{
-								"name" : "BCR-BFOL",
+								"name" : "LBC-BFOL",
 								"title" : "Half Open lower Bench Credenza-Left\r\n",
-								"image" : "image/catalog/builder-images/BCR-BFOL.png",
+								"image" : "image/catalog/builder-images/LBC-BFOL.png",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -1995,9 +1995,9 @@
 								]
 							},
 							{
-								"name" : "BCR-BBFF\r\n",
+								"name" : "LBC-BBFF\r\n",
 								"title" : "Double lower Bench Credenza",
-								"image" : "image/catalog/builder-images/BCR-BBFF.png\r\n",
+								"image" : "image/catalog/builder-images/LBC-BBFF.png\r\n",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -2020,9 +2020,9 @@
 								]
 							},
 							{
-								"name" : "BCR-BFHDR",
+								"name" : "LBC-BFHDR",
 								"title" : "Left Hinge Door lower Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/BCR-BFHDR.png\r\n",
+								"image" : "image/catalog/builder-images/LBC-BFHDR.png\r\n",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -2045,9 +2045,9 @@
 								]
 							},
 							{
-								"name" : "BCR-BFHDL",
+								"name" : "LBC-BFHDL",
 								"title" : "Right Hinge Door lower Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/BCR-BFHDL.png\r\n",
+								"image" : "image/catalog/builder-images/LBC-BFHDL.png\r\n",
 								"children" : [
 									{
 										"name" : "lbc_width_1",
@@ -2312,7 +2312,7 @@
 						]
 					},
 					{
-						"name" : "return_storage1",
+						"name" : "return_storage_1",
 						"title" : "Return Storage 1",
 						"type" : "select",
 						"values" : [
@@ -2771,7 +2771,7 @@
 						]
 					},
 					{
-						"name" : "return_storage2",
+						"name" : "return_storage_2",
 						"title" : "Return Storage 2",
 						"type" : "select",
 						"values" : [
@@ -6498,7 +6498,7 @@
 						]
 					},
 					{
-						"name" : "return_storage1",
+						"name" : "return_storage_1",
 						"title" : "Return Storage 1",
 						"type" : "select",
 						"values" : [
@@ -6957,7 +6957,7 @@
 						]
 					},
 					{
-						"name" : "return_storage2",
+						"name" : "return_storage_2",
 						"title" : "Return Storage 2",
 						"type" : "select",
 						"values" : [
@@ -10696,7 +10696,7 @@
 						]
 					},
 					{
-						"name" : "credenza_storage1",
+						"name" : "credenza_storage_1",
 						"title" : "Under Credenza Storage 1",
 						"type" : "select",
 						"values" : [
@@ -11155,7 +11155,7 @@
 						]
 					},
 					{
-						"name" : "credenza_storage2",
+						"name" : "credenza_storage_2",
 						"title" : "Under Credenza Storage 2",
 						"type" : "select",
 						"values" : [
@@ -13249,7 +13249,7 @@
 						]
 					},
 					{
-						"name" : "credenza_storage1",
+						"name" : "credenza_storage_1",
 						"title" : "Under Credenza Storage 1",
 						"type" : "select",
 						"values" : [
@@ -13708,7 +13708,7 @@
 						]
 					},
 					{
-						"name" : "credenza_storage2",
+						"name" : "credenza_storage_2",
 						"title" : "Under Credenza Storage 2",
 						"type" : "select",
 						"values" : [
