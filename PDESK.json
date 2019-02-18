@@ -58,7 +58,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -103,7 +103,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -148,7 +148,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -164,18 +164,11 @@
 													{
 														"name" : "desk_depth",
 														"title" : "Desk Depth",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "36",
-																"title" : "36"
-															},
-															{
-																"name" : "42",
-																"title" : "42"
-															}
-														]
+														"min" : "30",
+														"max" : "42",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													},
 													{
 														"name" : "desk_modesty",
@@ -200,7 +193,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -216,18 +209,11 @@
 													{
 														"name" : "desk_depth",
 														"title" : "Desk Depth",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "36",
-																"title" : "36"
-															},
-															{
-																"name" : "42",
-																"title" : "42"
-															}
-														]
+														"min" : "30",
+														"max" : "42",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													},
 													{
 														"name" : "desk_modesty",
@@ -252,7 +238,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -268,7 +254,7 @@
 													{
 														"name" : "desk_depth",
 														"title" : "Desk Depth",
-														"min" : "20",
+														"min" : "30",
 														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
@@ -297,7 +283,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -313,7 +299,7 @@
 													{
 														"name" : "desk_depth",
 														"title" : "Desk Depth",
-														"min" : "20",
+														"min" : "30",
 														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
@@ -547,7 +533,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -592,7 +578,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -644,7 +630,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -689,7 +675,7 @@
 												]
 											},
 											{
-												"name" : "boomerang_right",
+												"name" : "PDESK-BOOMR",
 												"title" : "Boomerang Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -739,24 +725,6 @@
 										"section" : "Return Parameters"
 									},
 									{
-										"name" : "return_support",
-										"title" : "Return Support",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "leg_support",
-												"title" : "Leg Support",
-												"image" : "image/catalog/builder-images/Desk-RF.png"
-											},
-											{
-												"name" : "ped_support",
-												"title" : "Ped Support",
-												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
-											}
-										]
-									},
-									{
 										"name" : "return_width",
 										"title" : "Return Width",
 										"min" : "18",
@@ -773,6 +741,46 @@
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "return_style",
+										"title" : "Return Style?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "return_shell",
+												"title" : "Return Shell",
+												"image" : "image/catalog/builder-images/Desk-RF.png",
+												"children" : [
+													{
+														"name" : "return_modesty",
+														"title" : "Modesty Hieght",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "18",
+																"title" : "18"
+															},
+															{
+																"name" : "28",
+																"title" : "28"
+															}
+														]
+													}
+												]
+											},
+											{
+												"name" : "worksurface",
+												"title" : "Worksuraface Only",
+												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+											}
+										]
 									},
 									{
 										"section" : "Storage"
@@ -5067,7 +5075,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -5112,7 +5120,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -5164,7 +5172,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -5209,7 +5217,7 @@
 												]
 											},
 											{
-												"name" : "boomerang_left",
+												"name" : "PDESK-BOOML",
 												"title" : "Boomerang Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -5259,24 +5267,6 @@
 										"section" : "Return Parameters"
 									},
 									{
-										"name" : "return_support",
-										"title" : "Return Support",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "leg_support",
-												"title" : "Leg Support",
-												"image" : "image/catalog/builder-images/Desk-RF.png"
-											},
-											{
-												"name" : "ped_support",
-												"title" : "Ped Support",
-												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
-											}
-										]
-									},
-									{
 										"name" : "return_width",
 										"title" : "Return Width",
 										"min" : "18",
@@ -5293,6 +5283,46 @@
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "return_style",
+										"title" : "Return Style?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "return_shell",
+												"title" : "Return Shell",
+												"image" : "image/catalog/builder-images/Desk-RF.png",
+												"children" : [
+													{
+														"name" : "return_modesty",
+														"title" : "Modesty Hieght",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "18",
+																"title" : "18"
+															},
+															{
+																"name" : "28",
+																"title" : "28"
+															}
+														]
+													}
+												]
+											},
+											{
+												"name" : "worksurface",
+												"title" : "Worksuraface Only",
+												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+											}
+										]
 									},
 									{
 										"section" : "Storage"
@@ -7604,7 +7634,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -7649,7 +7679,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -7694,7 +7724,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -7746,7 +7776,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -7798,7 +7828,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -7843,7 +7873,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -7911,22 +7941,42 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "credenza_modesty",
-										"title" : "Credenza Modesty",
+										"name" : "credenza_style",
+										"title" : "Credenza Style?",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "12",
-												"title" : "12"
+												"name" : "credenza_shell",
+												"title" : "Credenza Shell",
+												"image" : "image/catalog/builder-images/Desk-RF.png",
+												"children" : [
+													{
+														"name" : "credenza_modesty",
+														"title" : "Modesty Hieght",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "18",
+																"title" : "18"
+															},
+															{
+																"name" : "28",
+																"title" : "28"
+															}
+														]
+													}
+												]
 											},
 											{
-												"name" : "18",
-												"title" : "18"
-											},
-											{
-												"name" : "28",
-												"title" : "28"
+												"name" : "worksurface",
+												"title" : "Worksuraface Only",
+												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
 											}
 										]
 									},
@@ -10214,7 +10264,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -10259,7 +10309,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -10304,7 +10354,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -10356,7 +10406,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -10408,7 +10458,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -10453,7 +10503,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -10521,6 +10571,46 @@
 										"requiredField" : "true"
 									},
 									{
+										"name" : "bridge_style",
+										"title" : "Bridge Style",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "modesty",
+												"title" : "With Modesty",
+												"image" : "image/catalog/builder-images/Desk-RF.png",
+												"children" : [
+													{
+														"name" : "bridge_modesty",
+														"title" : "Modesty Hieght",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "18",
+																"title" : "18"
+															},
+															{
+																"name" : "28",
+																"title" : "28"
+															}
+														]
+													}
+												]
+											},
+											{
+												"name" : "worksurface",
+												"title" : "Worksurface Only",
+												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+											}
+										]
+									},
+									{
 										"section" : "Credenza Parameters"
 									},
 									{
@@ -10542,22 +10632,42 @@
 										"requiredField" : "true"
 									},
 									{
-										"name" : "credenza_modesty",
-										"title" : "Credenza Modesty",
+										"name" : "credenza_style",
+										"title" : "Credenza Style?",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "12",
-												"title" : "12"
+												"name" : "credenza_shell",
+												"title" : "Credenza Shell",
+												"image" : "image/catalog/builder-images/Desk-RF.png",
+												"children" : [
+													{
+														"name" : "credenza_modesty",
+														"title" : "Modesty Hieght",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "18",
+																"title" : "18"
+															},
+															{
+																"name" : "28",
+																"title" : "28"
+															}
+														]
+													}
+												]
 											},
 											{
-												"name" : "18",
-												"title" : "18"
-											},
-											{
-												"name" : "28",
-												"title" : "28"
+												"name" : "worksurface",
+												"title" : "Worksuraface Only",
+												"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
 											}
 										]
 									},
@@ -14579,7 +14689,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -14604,7 +14714,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -14629,7 +14739,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -14661,7 +14771,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -14693,7 +14803,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -14718,7 +14828,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -14948,7 +15058,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -14973,7 +15083,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -15005,7 +15115,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -15030,7 +15140,7 @@
 												]
 											},
 											{
-												"name" : "boomerang_right",
+												"name" : "PDESK-BOOMR",
 												"title" : "Boomerang Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -17685,7 +17795,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -17710,7 +17820,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -17742,7 +17852,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -17767,7 +17877,7 @@
 												]
 											},
 											{
-												"name" : "boomerang_left",
+												"name" : "PDESK-BOOML",
 												"title" : "Boomerang Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -20132,8 +20242,8 @@
 								"image" : "image/catalog/builder-images/Desk-Credenza.png",
 								"children" : [
 									{
-										"section" : "Desk Parameters",
-										"name" : "desk_credenza"
+										"name" : "desk_credenza",
+										"section" : "Desk Parameters"
 									},
 									{
 										"name" : "desk_style",
@@ -20142,7 +20252,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -20167,7 +20277,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -20192,7 +20302,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -20224,7 +20334,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -20256,7 +20366,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -20281,7 +20391,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -22632,7 +22742,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "r_top_left",
+												"name" : "PDESK-RTL",
 												"title" : "R-Top Left",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -22657,7 +22767,7 @@
 												]
 											},
 											{
-												"name" : "r_top_right",
+												"name" : "PDESK-RTR",
 												"title" : "R-Top Right",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -22682,7 +22792,7 @@
 												]
 											},
 											{
-												"name" : "d_top_left",
+												"name" : "PDESK-DTL",
 												"title" : "D-Top Left",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -22714,7 +22824,7 @@
 												]
 											},
 											{
-												"name" : "d_top_right",
+												"name" : "PDESK-DTR",
 												"title" : "D-Top Right",
 												"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
 												"children" : [
@@ -22746,7 +22856,7 @@
 												]
 											},
 											{
-												"name" : "p_top_left",
+												"name" : "PDESK-PTL",
 												"title" : "P-Top Left",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
@@ -22771,7 +22881,7 @@
 												]
 											},
 											{
-												"name" : "p_top_right",
+												"name" : "PDESK-PTR",
 												"title" : "P-Top Right",
 												"image" : "image/catalog/builder-images/Desk-BF.png",
 												"children" : [
