@@ -1,0 +1,90 @@
+{
+  "config": {
+    "test_type": "HTML-Tester-Template",
+    "url": "http://127.0.0.1:8080/post.html"
+  },
+  "test_cases": [
+    {
+      "form_data": {
+        "builder": "PDESK",
+        "product_group": "t1",
+        "corner_support": "modesty",
+        "end_support": "square_post_leg",
+        "desk_config_type": "u_shape",
+        "desk_style": "PDESK-DTR",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "desk_modesty": "28",
+        "bridge_width": "48",
+        "bridge_depth": "24",
+        "bridge_style": "modesty",
+        "bridge_modesty": "28",
+        "credenza_width": "72",
+        "credenza_depth": "20",
+        "credenza_style": "credenza_shell",
+        "credenza_modesty": "28"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "PDESK",
+        "product_group": "t2",
+        "corner_support": "modesty",
+        "end_support": "square_post_leg",
+        "desk_config_type": "u_shape",
+        "desk_style": "PDESK-DTR",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "desk_modesty": "28",
+        "bridge_width": "48",
+        "bridge_depth": "24",
+        "bridge_style": "worksurface",
+        "credenza_width": "72",
+        "credenza_depth": "20",
+        "credenza_style": "worksurface"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "PDESK",
+        "product_group": "t3",
+        "corner_support": "t_leg",
+        "end_support": "square_post_leg",
+        "desk_config_type": "u_shape",
+        "desk_style": "PDESK-PTL",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "bridge_width": "60",
+        "bridge_depth": "24",
+        "bridge_style": "modesty",
+        "bridge_modesty": "18",
+        "credenza_width": "72",
+        "credenza_depth": "20",
+        "credenza_style": "credenza_shell",
+        "credenza_modesty": "28"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "PDESK",
+        "product_group": "t4",
+        "corner_support": "t_leg",
+        "end_support": "square_post_leg",
+        "desk_config_type": "u_shape",
+        "desk_style": "PDESK-PTL",
+        "desk_width": "72",
+        "desk_depth": "36",
+        "bridge_width": "60",
+        "bridge_depth": "24",
+        "bridge_style": "worksurface",
+        "credenza_width": "72",
+        "credenza_depth": "20",
+        "credenza_style": "worksurface"
+      },
+      "response": {}
+    }
+  ]
+}

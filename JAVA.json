@@ -1,0 +1,2909 @@
+[
+	{
+		"name" : "product_group",
+		"title" : "Product Group",
+		"type" : "input",
+		"inputType" : "text",
+		"requiredField" : "true"
+	},
+	{
+		"name" : "layout",
+		"title" : "Layout",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "single",
+				"title" : "Single",
+				"children" : [
+					{
+						"name" : "seats",
+						"title" : "How Many Seats?",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "1",
+								"title" : "1"
+							},
+							{
+								"name" : "2",
+								"title" : "2"
+							},
+							{
+								"name" : "3",
+								"title" : "3"
+							},
+							{
+								"name" : "4",
+								"title" : "4"
+							},
+							{
+								"name" : "5",
+								"title" : "5"
+							},
+							{
+								"name" : "6",
+								"title" : "6"
+							},
+							{
+								"name" : "7",
+								"title" : "7"
+							},
+							{
+								"name" : "8",
+								"title" : "8"
+							},
+							{
+								"name" : "9",
+								"title" : "9"
+							},
+							{
+								"name" : "10",
+								"title" : "10"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "double",
+				"title" : "Double",
+				"children" : [
+					{
+						"name" : "seats",
+						"title" : "How Many Seats?",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "2",
+								"title" : "2"
+							},
+							{
+								"name" : "4",
+								"title" : "4"
+							},
+							{
+								"name" : "6",
+								"title" : "6"
+							},
+							{
+								"name" : "8",
+								"title" : "8"
+							},
+							{
+								"name" : "10",
+								"title" : "10"
+							},
+							{
+								"name" : "12",
+								"title" : "12"
+							},
+							{
+								"name" : "14",
+								"title" : "14"
+							},
+							{
+								"name" : "16",
+								"title" : "16"
+							},
+							{
+								"name" : "18",
+								"title" : "18"
+							},
+							{
+								"name" : "20",
+								"title" : "20"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name" : "grommet",
+		"title" : "Worksurface Grommet",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "center",
+				"title" : "Center"
+			},
+			{
+				"name" : "lr",
+				"title" : "L/R"
+			}
+		]
+	},
+	{
+		"name" : "left_end",
+		"title" : "Left End",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "low",
+				"title" : "Low"
+			},
+			{
+				"name" : "high",
+				"title" : "High"
+			}
+		]
+	},
+	{
+		"name" : "right_end",
+		"title" : "Right End",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "low",
+				"title" : "Low"
+			},
+			{
+				"name" : "high",
+				"title" : "High"
+			}
+		]
+	},
+	{
+		"name" : "power_source",
+		"title" : "Power Source",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "left_side",
+				"title" : "Left Side"
+			},
+			{
+				"name" : "right_side",
+				"title" : "Right Side"
+			}
+		]
+	},
+	{
+		"name" : "tackboard",
+		"title" : "Add Tackboards?",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "yes",
+				"title" : "Yes"
+			},
+			{
+				"name" : "no",
+				"title" : "No"
+			}
+		]
+	},
+	{
+		"name" : "panel_acrylic",
+		"title" : "Add Acrylic Screens on Panels?",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "yes",
+				"title" : "Yes",
+				"children" : [
+					{
+						"name" : "panel_ac_height",
+						"title" : "Screen Height",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "6",
+								"title" : "6"
+							},
+							{
+								"name" : "8",
+								"title" : "8"
+							},
+							{
+								"name" : "12",
+								"title" : "12"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "no",
+				"title" : "No"
+			}
+		]
+	},
+	{
+		"name" : "electrical",
+		"title" : "Add Electrical?",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "yes",
+				"title" : "Yes",
+				"children" : [
+					{
+						"name" : "outlets",
+						"title" : "How Many Outlets Per Seat?",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "2",
+								"title" : "2"
+							},
+							{
+								"name" : "4",
+								"title" : "4"
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "no",
+				"title" : "No"
+			}
+		]
+	},
+	{
+		"name" : "desk_width",
+		"title" : "Desk Width",
+		"min" : "36",
+		"max" : "72",
+		"type" : "input",
+		"inputType" : "number",
+		"requiredField" : "true"
+	},
+	{
+		"name" : "desk_depth",
+		"title" : "Desk Depth",
+		"min" : "23",
+		"max" : "30",
+		"type" : "input",
+		"inputType" : "number",
+		"requiredField" : "true"
+	},
+	{
+		"name" : "modesty",
+		"title" : "Modesty",
+		"type" : "select",
+		"requiredField" : "true",
+		"values" : [
+			{
+				"name" : "12",
+				"title" : "12"
+			},
+			{
+				"name" : "28",
+				"title" : "28"
+			}
+		]
+	},
+	{
+		"section" : "Storage"
+	},
+	{
+		"name" : "desk_pedestal_1",
+		"title" : "Desk Pedestal",
+		"type" : "select",
+		"values" : [
+			{
+				"name" : "SPED-PD",
+				"title" : "Pencil Drawer Pedestal",
+				"image" : "image/catalog/builder-images/SPED-PD.png"
+			},
+			{
+				"name" : "SPED-BF",
+				"title" : "Box-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-BF.png"
+			},
+			{
+				"name" : "SPED-HBF",
+				"title" : "Hanging Box-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-HBF.png"
+			},
+			{
+				"name" : "SPED-BBF",
+				"title" : "Box-Box-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-BBF.png"
+			},
+			{
+				"name" : "SPED-FF",
+				"title" : "File-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-FF.png"
+			},
+			{
+				"name" : "SPED-MBF",
+				"title" : "Mobile-Box-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-MBF.png"
+			},
+			{
+				"name" : "SPED-MBBF",
+				"title" : "Mobile-Box-Box-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-MBBF.png"
+			},
+			{
+				"name" : "SPED-MFF",
+				"title" : "Mobile-File-File Pedestal",
+				"image" : "image/catalog/builder-images/SPED-MFF.png"
+			}
+		]
+	},
+	{
+		"name" : "return_storage_1",
+		"title" : "Additional Storage 1",
+		"type" : "select",
+		"values" : [
+			{
+				"optgroup_title" : "Open Pendestals"
+			},
+			{
+				"name" : "OPED-BFOR",
+				"title" : "Box-File-Open Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BFOL",
+				"title" : "Box-File-Open Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BBFOR",
+				"title" : "Box-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BBFOL",
+				"title" : "Box-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-FFOR",
+				"title" : "File-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-FFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-FFOL",
+				"title" : "File-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-FFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBFOR",
+				"title" : "Mobile-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBFOL",
+				"title" : "Mobile-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBBFOR",
+				"title" : "Mobile-Box-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBBFOL",
+				"title" : "Mobile-Box-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MFFOR",
+				"title" : "Mobile-File-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MFFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MFFOL",
+				"title" : "Mobile-File-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MFFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Mixed Pendestals"
+			},
+			{
+				"name" : "MPED-BBL",
+				"title" : "Box-Box-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-LL",
+				"title" : "Lateral-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-LL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBBBL",
+				"title" : "Box-Box-Box-Box-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBBBL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBFLR",
+				"title" : "Box-Box-File-Lateral Right Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBFLR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBFLL",
+				"title" : "Box-Box-File-Lateral Left Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBFLL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBOLR",
+				"title" : "Box-Box-Open-Lateral Right Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBOLR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBOLL",
+				"title" : "Box-Box-Open-Lateral Left Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBOLL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Storage Cabinets"
+			},
+			{
+				"name" : "HOBSC-RDHOBSC",
+				"title" : "Right Door Half Open Base  Cabinet ",
+				"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "HOBSC-LDHOBSC",
+				"title" : "Left Door Half Open Base  Cabinet ",
+				"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-RDBSC",
+				"title" : "Right Swing Single Door Base Storage Cabinet",
+				"image" : "image/catalog/builder-images/BSC-RDBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-LDBSC",
+				"title" : "Left Swing Single Door Base Storage Cabinet",
+				"image" : "image/catalog/builder-images/BSC-LDBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-OBSC",
+				"title" : "Open Base Storage Cabinet ",
+				"image" : "image/catalog/builder-images/BSC-OBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-2DBSC",
+				"title" : "2 Door Base Storage Cabinet ",
+				"image" : "image/catalog/builder-images/BSC-2DBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "24",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Stacking Storage Cabinets"
+			},
+			{
+				"name" : "SSC-OSSC",
+				"title" : "Open Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-OSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											},
+											{
+												"name" : "above_desk_width_1",
+												"title" : "Stacking Cabinet Width",
+												"min" : "36",
+												"max" : "72",
+												"type" : "input",
+												"inputType" : "number",
+												"requiredField" : "true"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-RDSSC",
+				"title" : "Right door Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-RDSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-LDSSC",
+				"title" : "Left Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-LDSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-2DSSC",
+				"title" : "Laminate Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-2DSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-RDSSCC",
+				"title" : "Right  Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-OSSCC",
+				"title" : "Open Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-OSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-LDSSCC",
+				"title" : "Left Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-2DSSCC",
+				"title" : "Laminate Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSC-RDHOSSC",
+				"title" : "Right Door Half Open Laminate Stacking  Cabinet ",
+				"image" : "image/catalog/builder-images/HOSSC-RDHOSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSC-LDHOSSC",
+				"title" : "Left Door Half Open Laminate Stacking  Cabinet ",
+				"image" : "image/catalog/builder-images/HOSSC-LDHOSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSCC-RDHOSSCC",
+				"title" : "Right Door Half Open Laminate Stacking  Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/HOSSCC-RDHOSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSCC-LDHOSSCC",
+				"title" : "Left Door Half Open Laminate Stacking  Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/HOSSCC-LDHOSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Desk Supported Hutches"
+			}
+		]
+	},
+	{
+		"name" : "return_storage_2",
+		"title" : "Additional Storage 2",
+		"type" : "select",
+		"values" : [
+			{
+				"optgroup_title" : "Open Pendestals"
+			},
+			{
+				"name" : "OPED-BFOR",
+				"title" : "Box-File-Open Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BFOL",
+				"title" : "Box-File-Open Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BBFOR",
+				"title" : "Box-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-BBFOL",
+				"title" : "Box-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-BBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-FFOR",
+				"title" : "File-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-FFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-FFOL",
+				"title" : "File-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-FFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBFOR",
+				"title" : "Mobile-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBFOL",
+				"title" : "Mobile-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBBFOR",
+				"title" : "Mobile-Box-Box-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MBBFOL",
+				"title" : "Mobile-Box-Box-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MFFOR",
+				"title" : "Mobile-File-File-Open-Right Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MFFOR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "OPED-MFFOL",
+				"title" : "Mobile-File-File-Open-Left Open Pedestal",
+				"image" : "image/catalog/builder-images/OPED-MFFOL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "OPED Width",
+						"min" : "30",
+						"max" : "60",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Mixed Pendestals"
+			},
+			{
+				"name" : "MPED-BBL",
+				"title" : "Box-Box-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-LL",
+				"title" : "Lateral-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-LL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBBBL",
+				"title" : "Box-Box-Box-Box-Lateral Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBBBL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBFLR",
+				"title" : "Box-Box-File-Lateral Right Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBFLR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBFLL",
+				"title" : "Box-Box-File-Lateral Left Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBFLL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBOLR",
+				"title" : "Box-Box-Open-Lateral Right Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBOLR.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "MPED-BBOLL",
+				"title" : "Box-Box-Open-Lateral Left Mixed Pedestal",
+				"image" : "image/catalog/builder-images/MPED-BBOLL.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "MPED Width",
+						"min" : "30",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Storage Cabinets"
+			},
+			{
+				"name" : "HOBSC-RDHOBSC",
+				"title" : "Right Door Half Open Base  Cabinet ",
+				"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "HOBSC-LDHOBSC",
+				"title" : "Left Door Half Open Base  Cabinet ",
+				"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-RDBSC",
+				"title" : "Right Swing Single Door Base Storage Cabinet",
+				"image" : "image/catalog/builder-images/BSC-RDBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-LDBSC",
+				"title" : "Left Swing Single Door Base Storage Cabinet",
+				"image" : "image/catalog/builder-images/BSC-LDBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "24",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-OBSC",
+				"title" : "Open Base Storage Cabinet ",
+				"image" : "image/catalog/builder-images/BSC-OBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "12",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"name" : "BSC-2DBSC",
+				"title" : "2 Door Base Storage Cabinet ",
+				"image" : "image/catalog/builder-images/BSC-2DBSC.png",
+				"children" : [
+					{
+						"name" : "return_storage_width_1",
+						"title" : "Storage Cabinet Width",
+						"min" : "24",
+						"max" : "36",
+						"type" : "input",
+						"inputType" : "number",
+						"requiredField" : "true"
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Stacking Storage Cabinets"
+			},
+			{
+				"name" : "SSC-OSSC",
+				"title" : "Open Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-OSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											},
+											{
+												"name" : "above_desk_width_1",
+												"title" : "Stacking Cabinet Width",
+												"min" : "36",
+												"max" : "72",
+												"type" : "input",
+												"inputType" : "number",
+												"requiredField" : "true"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-RDSSC",
+				"title" : "Right door Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-RDSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-LDSSC",
+				"title" : "Left Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-LDSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSC-2DSSC",
+				"title" : "Laminate Stacking Cabinet ",
+				"image" : "image/catalog/builder-images/SSC-2DSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-RDSSCC",
+				"title" : "Right  Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-OSSCC",
+				"title" : "Open Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-OSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-LDSSCC",
+				"title" : "Left Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "SSCC-2DSSCC",
+				"title" : "Laminate Stacking Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									},
+									{
+										"name" : "above_desk_width_1",
+										"title" : "Stacking Cabinet Width",
+										"min" : "36",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSC-RDHOSSC",
+				"title" : "Right Door Half Open Laminate Stacking  Cabinet ",
+				"image" : "image/catalog/builder-images/HOSSC-RDHOSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSC-LDHOSSC",
+				"title" : "Left Door Half Open Laminate Stacking  Cabinet ",
+				"image" : "image/catalog/builder-images/HOSSC-LDHOSSC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSCC-RDHOSSCC",
+				"title" : "Right Door Half Open Laminate Stacking  Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/HOSSCC-RDHOSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name" : "HOSSCC-LDHOSSCC",
+				"title" : "Left Door Half Open Laminate Stacking  Cabinet With Cubby",
+				"image" : "image/catalog/builder-images/HOSSCC-LDHOSSCC.png",
+				"children" : [
+					{
+						"name" : "storage_for_what",
+						"title" : "Indended Use",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "desk",
+								"title" : "Stack On Desk",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "37",
+												"title" : "37"
+											},
+											{
+												"name" : "43",
+												"title" : "43"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "credenza",
+								"title" : "Stack on Lower Credenza",
+								"children" : [
+									{
+										"name" : "above_desk_height_1",
+										"title" : "Stacking Cabinet Height",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "44",
+												"title" : "44"
+											},
+											{
+												"name" : "50",
+												"title" : "50"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"optgroup_title" : "Desk Supported Hutches"
+			}
+		]
+	}
+]
