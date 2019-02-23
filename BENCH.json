@@ -898,7 +898,7 @@
 								"children" : [
 									{
 										"name" : "screen_type",
-										"title" : "Which Would You Prefer?",
+										"title" : "Laminate or Acrylic?",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
@@ -932,6 +932,22 @@
 												"name" : "laminate",
 												"title" : "Laminate",
 												"children" : [
+													{
+														"name" : "lam_height",
+														"title" : "Laminate Screen Height?",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "12",
+																"title" : "12"
+															},
+															{
+																"name" : "20",
+																"title" : "20"
+															}
+														]
+													},
 													{
 														"name" : "tackboard",
 														"title" : "Add Tackboards?",
@@ -1185,15 +1201,6 @@
 						]
 					},
 					{
-						"name" : "panel_height",
-						"title" : "Panel Height",
-						"min" : "36",
-						"max" : "50",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
 						"name" : "desk_width",
 						"title" : "Desk Width",
 						"min" : "36",
@@ -1210,22 +1217,6 @@
 						"type" : "input",
 						"inputType" : "number",
 						"requiredField" : "true"
-					},
-					{
-						"name" : "modesty",
-						"title" : "Modesty",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "12",
-								"title" : "12"
-							},
-							{
-								"name" : "28",
-								"title" : "28"
-							}
-						]
 					},
 					{
 						"section" : "Storage"
