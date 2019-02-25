@@ -1484,8 +1484,8 @@
 												"title" : "Acrylic",
 												"children" : [
 													{
-														"name" : "spine_ac_height",
-														"title" : "Spine Acrylic Screen Height?",
+														"name" : "divider_ac_height",
+														"title" : "Acrylic Screen Height?",
 														"type" : "select",
 														"requiredField" : "true",
 														"values" : [
@@ -1504,8 +1504,8 @@
 														]
 													},
 													{
-														"name" : "spine_ac_width",
-														"title" : "Spine Acrylic Screen width?",
+														"name" : "divider_ac_width",
+														"title" : "Acrylic Screen width?",
 														"type" : "select",
 														"requiredField" : "true",
 														"values" : [
