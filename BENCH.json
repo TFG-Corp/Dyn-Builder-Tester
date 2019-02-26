@@ -1588,7 +1588,7 @@
 																"title" : "Yes",
 																"children" : [
 																	{
-																		"name" : "spine_panel_ac_height",
+																		"name" : "panel_ac_height",
 																		"title" : "Acrylic Above Laminate Screen Height?",
 																		"type" : "select",
 																		"requiredField" : "true",
