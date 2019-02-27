@@ -1,0 +1,307 @@
+{
+  "config": {
+    "test_type": "HTML-Tester-Template",
+    "url": "http://127.0.0.1:8080/post.html"
+  },
+  "test_cases": [
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby1",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "36",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby2",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "28",
+        "desk_size": "36",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby3",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "28",
+        "desk_size": "42	",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby4",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "28",
+        "desk_size": "48",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby5",
+        "bench_style": "120d",
+        "base": "metal",
+        "leg_style": "o_leg",
+        "desk_size": "48",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby6",
+        "bench_style": "120d",
+        "base": "metal",
+        "leg_style": "n_leg",
+        "desk_size": "48",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby7",
+        "bench_style": "120d",
+        "base": "metal",
+        "leg_style": "v_leg",
+        "desk_size": "42	",
+        "screen": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby8",
+        "bench_style": "120d",
+        "base": "metal",
+        "leg_style": "v_leg",
+        "desk_size": "48",
+        "screen": "yes",
+        "screen_type": "acrylic",
+        "divider_ac_height": "20",
+        "divider_ac_width": "full_width",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby9",
+        "bench_style": "120d",
+        "base": "metal",
+        "leg_style": "v_leg",
+        "desk_size": "48",
+        "screen": "yes",
+        "screen_type": "acrylic",
+        "divider_ac_height": "20",
+        "divider_ac_width": "offset",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby10",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "acrylic",
+        "divider_ac_height": "20",
+        "divider_ac_width": "offset",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby11",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "acrylic",
+        "divider_ac_height": "20",
+        "divider_ac_width": "full_width",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby12",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "no",
+        "panel_acrylic": "no",
+        "accessories": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby13",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "no",
+        "accessories": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby14",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "yes",
+        "panel_ac_height": "6",
+        "accessories": "no",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby15",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "yes",
+        "panel_ac_height": "6",
+        "accessories": "yes",
+        "tray": "pencil",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby16",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "yes",
+        "panel_ac_height": "6",
+        "accessories": "yes",
+        "tray": "paper-paper",
+        "electrical": "no"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby17",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "yes",
+        "panel_ac_height": "6",
+        "accessories": "yes",
+        "tray": "paper-paper",
+        "electrical": "yes",
+        "outlets": "2"
+      },
+      "response": {}
+    },
+    {
+      "form_data": {
+        "builder": "BENCH",
+        "product_group": "ruby18",
+        "bench_style": "120d",
+        "base": "laminate",
+        "modesty": "12",
+        "desk_size": "42	",
+        "screen": "yes",
+        "screen_type": "laminate",
+        "lam_height": "20",
+        "lam_width": "full_width",
+        "tackboard": "yes",
+        "panel_acrylic": "yes",
+        "panel_ac_height": "6",
+        "accessories": "yes",
+        "tray": "paper-paper",
+        "electrical": "yes",
+        "outlets": "4"
+      },
+      "response": {}
+    }
+  ]
+}

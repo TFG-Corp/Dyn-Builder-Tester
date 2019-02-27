@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 
-with open('my_test1.json') as file:
+with open('x_test.json') as file:
     tests = json.load(file)
 
 driver = webdriver.Chrome()
