@@ -1383,7 +1383,165 @@
 				"name" : "120d",
 				"title" : "120° BENCH",
 				"children" : [
-					{},
+					{
+						"name" : "layout",
+						"title" : "Layout",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "layout-1",
+								"title" : "Layout 1",
+								"image" : "image/catalog/builder-images/l120-layout-1.png"
+							},
+							{
+								"name" : "layout-2",
+								"title" : "Layout 2",
+								"image" : "image/catalog/builder-images/l120-layout-2.png",
+								"children" : [
+									{
+										"name" : "connection",
+										"title" : "Connection Type",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "bridge",
+												"title" : "Bridge",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											},
+											{
+												"name" : "end_table",
+												"title" : "End Table",
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
+												"children" : [
+													{
+														"name" : "end_table_style",
+														"title" : "End Table Style",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "rectangular",
+																"title" : "Rectangular",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "half_moon",
+																"title" : "Half Moon",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "radius_corner",
+																"title" : "Radius Corner",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "layout-3",
+								"title" : "Layout 3",
+								"image" : "image/catalog/builder-images/l120-layout-3.png",
+								"children" : [
+									{
+										"name" : "connection",
+										"title" : "Connection Type",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "bridge",
+												"title" : "Bridge"
+											},
+											{
+												"name" : "end_table",
+												"title" : "End Table",
+												"children\r\n" : [
+													{
+														"name" : "end_table_style",
+														"title" : "End Table Style",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "rectangular",
+																"title" : "Rectangular",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "half_moon",
+																"title" : "Half Moon",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "radius_corner",
+																"title" : "Radius Corner",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "layout-4",
+								"title" : "Layout 4",
+								"image" : "image/catalog/builder-images/l120-layout-3.png",
+								"children" : [
+									{
+										"name" : "connection",
+										"title" : "Connection Type",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "bridge",
+												"title" : "Bridge"
+											},
+											{
+												"name" : "end_table",
+												"title" : "End Table",
+												"children" : [
+													{
+														"name" : "end_table_style",
+														"title" : "End Table Style",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "rectangular",
+																"title" : "Rectangular",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "half_moon",
+																"title" : "Half Moon",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															},
+															{
+																"name" : "radius_corner",
+																"title" : "Radius Corner",
+																"image" : "image/catalog/builder-images/l120-layout-2.png"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
 					{
 						"name" : "base",
 						"title" : "Base",
