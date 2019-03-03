@@ -1390,55 +1390,35 @@
 						"requiredField" : "true",
 						"values" : [
 							{
-								"name" : "layout-1",
-								"title" : "Layout 1",
+								"name" : "120",
+								"title" : "120",
 								"image" : "image/catalog/builder-images/l120-layout-1.png"
 							},
 							{
-								"name" : "layout-2",
-								"title" : "Layout 2",
+								"name" : "120_et",
+								"title" : "120 + End Tables",
 								"image" : "image/catalog/builder-images/l120-layout-2.png",
 								"children" : [
 									{
-										"name" : "connection",
-										"title" : "Connection Type",
+										"name" : "end_table_style",
+										"title" : "End Table Style",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "bridge",
-												"title" : "Bridge",
+												"name" : "rectangular",
+												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/l120-layout-2.png"
 											},
 											{
-												"name" : "end_table",
-												"title" : "End Table",
-												"image" : "image/catalog/builder-images/l120-layout-2.png",
-												"children" : [
-													{
-														"name" : "end_table_style",
-														"title" : "End Table Style",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "rectangular",
-																"title" : "Rectangular",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "half_moon",
-																"title" : "Half Moon",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "radius_corner",
-																"title" : "Radius Corner",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															}
-														]
-													}
-												]
+												"name" : "half_moon",
+												"title" : "Half Moon",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											},
+											{
+												"name" : "radius_corner",
+												"title" : "Radius Corner",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
 											}
 										]
 									}
