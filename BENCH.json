@@ -1390,153 +1390,160 @@
 						"requiredField" : "true",
 						"values" : [
 							{
-								"name" : "layout-1",
-								"title" : "Layout 1",
+								"name" : "3_person",
+								"title" : "3 Person",
 								"image" : "image/catalog/builder-images/l120-layout-1.png"
 							},
 							{
-								"name" : "layout-2",
-								"title" : "Layout 2",
+								"name" : "3_person_et",
+								"title" : "3 Person + End Table",
 								"image" : "image/catalog/builder-images/l120-layout-2.png",
 								"children" : [
 									{
-										"name" : "connection",
-										"title" : "Connection Type",
+										"name" : "end_table_style",
+										"title" : "End Table Style",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "bridge",
-												"title" : "Bridge",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											},
-											{
-												"name" : "end_table",
-												"title" : "End Table",
+												"name" : "rectangular",
+												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/l120-layout-2.png",
 												"children" : [
 													{
-														"name" : "end_table_style",
-														"title" : "End Table Style",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "rectangular",
-																"title" : "Rectangular",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "half_moon",
-																"title" : "Half Moon",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "radius_corner",
-																"title" : "Radius Corner",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															}
-														]
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
+											},
+											{
+												"name" : "half_moon",
+												"title" : "Half Moon",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											},
+											{
+												"name" : "radius_corner",
+												"title" : "Radius Corner",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
 											}
 										]
 									}
 								]
 							},
 							{
-								"name" : "layout-3",
-								"title" : "Layout 3",
-								"image" : "image/catalog/builder-images/l120-layout-3.png",
+								"name" : "6_person",
+								"title" : "6 Person",
+								"image" : "image/catalog/builder-images/l120-layout-2.png"
+							},
+							{
+								"name" : "6_person_br",
+								"title" : "6 Person + Bridge",
+								"image" : "image/catalog/builder-images/l120-layout-2.png",
 								"children" : [
 									{
-										"name" : "connection",
-										"title" : "Connection Type",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "bridge",
-												"title" : "Bridge"
-											},
-											{
-												"name" : "end_table",
-												"title" : "End Table",
-												"children\r\n" : [
-													{
-														"name" : "end_table_style",
-														"title" : "End Table Style",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "rectangular",
-																"title" : "Rectangular",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "half_moon",
-																"title" : "Half Moon",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "radius_corner",
-																"title" : "Radius Corner",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															}
-														]
-													}
-												]
-											}
-										]
+										"name" : "bridge_width",
+										"title" : "Bridge Width",
+										"min" : "24",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
 									}
 								]
 							},
 							{
-								"name" : "layout-4",
-								"title" : "Layout 4",
-								"image" : "image/catalog/builder-images/l120-layout-3.png",
+								"name" : "6_person_et",
+								"title" : "6 Person + End Table",
+								"image" : "image/catalog/builder-images/l120-layout-2.png",
 								"children" : [
 									{
-										"name" : "connection",
-										"title" : "Connection Type",
+										"name" : "end_table_style",
+										"title" : "End Table Style",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "bridge",
-												"title" : "Bridge"
-											},
-											{
-												"name" : "end_table",
-												"title" : "End Table",
+												"name" : "rectangular",
+												"title" : "Rectangular",
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
 												"children" : [
 													{
-														"name" : "end_table_style",
-														"title" : "End Table Style",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "rectangular",
-																"title" : "Rectangular",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "half_moon",
-																"title" : "Half Moon",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															},
-															{
-																"name" : "radius_corner",
-																"title" : "Radius Corner",
-																"image" : "image/catalog/builder-images/l120-layout-2.png"
-															}
-														]
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
+											},
+											{
+												"name" : "half_moon",
+												"title" : "Half Moon",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											},
+											{
+												"name" : "radius_corner",
+												"title" : "Radius Corner",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
 											}
 										]
+									}
+								]
+							},
+							{
+								"name" : "6_person_et_br",
+								"title" : "6 Person + End Table + Bridge",
+								"image" : "image/catalog/builder-images/l120-layout-2.png",
+								"children" : [
+									{
+										"name" : "end_table_style",
+										"title" : "End Table Style",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "rectangular",
+												"title" : "Rectangular",
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
+												"children" : [
+													{
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
+													}
+												]
+											},
+											{
+												"name" : "half_moon",
+												"title" : "Half Moon",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											},
+											{
+												"name" : "radius_corner",
+												"title" : "Radius Corner",
+												"image" : "image/catalog/builder-images/l120-layout-2.png"
+											}
+										]
+									},
+									{
+										"name" : "bridge_width",
+										"title" : "Bridge Width",
+										"min" : "24",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
 									}
 								]
 							}
