@@ -172,3 +172,20 @@ $("#builder-type").change(function () {
 app.getTree();
 
 });
+
+$('body').on('change', 'select', function () {
+  //$('#CartTopImages #img-' + $(this).attr('name')).fadeOut(300, function() { $(this).remove(); });
+
+  var element = $(this);
+
+  var html = '<img class="img-responsive" src="' + $('option:selected', element).attr('image') + '"><p class="text-center">' + $('label[for="' + element.attr('name') + '"]').text() + '</p>';
+
+  if ($('option:selected', this).attr('image') && $('#CartWrapper #CartTopImages #img-' + element.attr('name')).length && element.val() == '') {
+    $('#CartWrapper #CartTopImages #img-' + element.attr('name')).fadeOut();
+  } else if ($('option:selected', this).attr('image') && $('#CartWrapper #CartTopImages #img-' + element.attr('name')).length) {
+    $('#CartWrapper #CartTopImages #img-' + element.attr('name')).html(html);
+  } else if ($('option:selected', this).attr('image')) {
+    $('#CartWrapper #CartTopImages').append('<div id="img-' + element.attr('name') + '" class="col-md-2 text-center" style="">' + html + '</div>');
+  }
+
+});
