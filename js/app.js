@@ -30,7 +30,7 @@ Vue.component('dynamic-form-field', {
 				<option value="" selected> --- Please Select --- </option>
 				  <template v-for="value in item.values">
 				  <optgroup v-if="value.optgroup_title" v-bind:label="value.optgroup_title"></optgroup>
-				  <option v-if="value.name" v-bind:value="value.name" v-bind:image="value.image">{{value.title}}</option>
+				  <option v-if="value.name" v-bind:value="value.name" v-bind:model_3d="value.model_3d" v-bind:image="value.image">{{value.title}}</option>
 				  </template>
 			</select>
 
@@ -188,26 +188,40 @@ $('body').on('change', 'select', function () {
     $('#CartWrapper #CartTopImages').append('<div id="img-' + element.attr('name') + '" class="col-md-2 text-center" style="">' + html + '</div>');
   }
 
+
+
+
 });
 
 
 $(document).ready(function () {
+
   $('body').on('change', 'select', function () {
 
-    var svgRoot = document.getElementById("svg-glyph").contentDocument.documentElement;
 
-    $("svg g", svgRoot).addClass('st0');
-    $("svg g", svgRoot).attr('style', '');
-
-    var svg_selector = '#' + $(this).parent().attr('name') + "---" + $(this).val();
-
-    $('option:selected', '#dynamic-form').each(function (index) {
-      console.log(svg_selector);
-      $(svg_selector, svgRoot).removeClass('st0');
-    })
+    // Load Model
+    if ($('option:selected', this).attr('model_3d')) {
+      var promise = loadFurniture($('option:selected', this).attr('model_3d'));
+      promise.then(update3D);
+    } else {
+      update3D();
+    }
 
   });
+
 });
+
+function update3D() {
+  // Update Changes
+  var layers = [];
+  $('option:selected', '#dynamic-form').each(function () {
+    layers.push($(this).parent().attr('name') + "-" + $(this).val());
+  });
+  updateFurniture(layers);
+}
+
+
+
 
 
 

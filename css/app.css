@@ -4,6 +4,9 @@ input[type='checkbox'] {
 }
 
 
+#container-3D canvas {
+  border: 1px solid #c9c9c9;
+}
 
 #container-3D canvas {
   border-radius: 25px

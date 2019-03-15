@@ -5,7 +5,7 @@
 
 if (WEBGL.isWebGLAvailable() === false) {
 
-  document.body.appendChild( WEBGL.getWebGLErrorMessage() );
+  document.body.appendChild(WEBGL.getWebGLErrorMessage());
 
 }
 
@@ -17,72 +17,56 @@ animate();
 
 function init() {
 
-  // container = document.getElementById( 'canvas-3D' );
-  container = document.getElementById( 'container-3D' );
+  container = document.getElementById('container-3D');
+
+  camera = new THREE.PerspectiveCamera(15, container.clientWidth / container.clientHeight, 0.1, 2000);
+  camera.position.set(8, 10, 8);
+  camera.lookAt(0, 3, 0);
 
 
-  camera = new THREE.PerspectiveCamera( 15, container.clientWidth / container.clientHeight, 0.1, 2000 );
-  camera.position.set( 8, 10, 8 );
-  camera.lookAt( 0, 3, 0 );
-
-
-  var controls = new THREE.OrbitControls( camera, container );
+  var controls = new THREE.OrbitControls(camera, container);
   controls.maxPolarAngle = Math.PI / 2;
   // controls.minDistance = 150;
   controls.maxDistance = 100;
 
   scene = new THREE.Scene();
+  // scene.background = new THREE.Color( 0xffffff );
 
   clock = new THREE.Clock();
 
-  // // loading manager
-  //
-  // var loadingManager = new THREE.LoadingManager( function () {
-  //
-  //   scene.add( furniture );
-  //
-  // } );
-  //
-  // // collada
-  //
-  // var loader = new THREE.ColladaLoader( loadingManager );
-  // loader.load( './3D-models/120-test/120-test1.dae', function ( collada ) {
-  //
-  //   furniture = collada.scene;
-  // } );
-
-
   // LIGHTS
 
-  var light = new THREE.PointLight( 0xffffff, 1 );
-  light.position.set( 2, 5, 1 );
-  light.position.multiplyScalar( 30 );
-  scene.add( light );
+  var light1 = new THREE.PointLight(0xffffff, 1);
+  light1.position.set(2, 5, 1);
+  light1.position.multiplyScalar(30);
+  scene.add(light1);
 
-  var light = new THREE.PointLight( 0xffffff, 0.75 );
-  light.position.set( - 12, 4.6, 2.4 );
-  light.position.multiplyScalar( 30 );
-  scene.add( light );
+  var light2 = new THREE.PointLight(0xffffff, 0.75);
+  light2.position.set(-12, 4.6, 2.4);
+  light2.position.multiplyScalar(30);
+  scene.add(light2);
 
-  scene.add( new THREE.AmbientLight( 0x050505 ) );
+  scene.add(new THREE.AmbientLight(0x050505));
 
   //RENDERER
 
-  renderer = new THREE.WebGLRenderer();
-  // renderer = new THREE.WebGLRenderer({canvas: container});
-  renderer.setPixelRatio( window.devicePixelRatio );
-  renderer.setSize( container.clientWidth, container.clientHeight );
-  container.appendChild( renderer.domElement );
+  // renderer = new THREE.WebGLRenderer();
+  renderer = new THREE.WebGLRenderer( { alpha: true } ); // init like this
+  renderer.setClearColor( 0xffffff, 0 );
+  // renderer = new THREE.WebGLRenderer({alpha: true, canvas: container});
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
 
-  //
+
   // Statics
-  if (typeof ( Stats ) != 'undefined') {
+  if (typeof (Stats) != 'undefined') {
     stats = new Stats();
-    container.appendChild( stats.dom );
+    container.appendChild(stats.dom);
   }
-  //
 
-  window.addEventListener( 'resize', onWindowResize, false );
+  //Resize Event
+  window.addEventListener('resize', onWindowResize, false);
 
 }
 
@@ -91,16 +75,16 @@ function onWindowResize() {
   camera.aspect = container.clientWidth / container.clientHeight;
   camera.updateProjectionMatrix();
 
-  renderer.setSize( container.clientWidth, container.clientHeight );
+  renderer.setSize(container.clientWidth, container.clientHeight);
 
 }
 
 function animate() {
 
-  requestAnimationFrame( animate );
+  requestAnimationFrame(animate);
 
   render();
-  if (typeof ( Stats ) != 'undefined') {
+  if (typeof (Stats) != 'undefined') {
     stats.update();
   }
 
@@ -114,33 +98,38 @@ function render() {
   }
 
 
-  renderer.render( scene, camera );
+  renderer.render(scene, camera);
 
 }
 
-function loadFurniture( url ) {
-  scene.remove( furniture );
+async function loadFurniture(url) {
+  scene.remove(furniture);
   // loading manager
-  var loadingManager = new THREE.LoadingManager( function () {
+  var loadingManager = new THREE.LoadingManager(async function () {
 
-    scene.add( furniture );
+    await scene.add(furniture);
 
-  } );
+  });
 
   // collada
-  var loader = new THREE.ColladaLoader( loadingManager );
-  loader.load( url, function ( collada ) {
+  var loader = new THREE.ColladaLoader(loadingManager);
+  loader.load(url, function (collada) {
 
     furniture = collada.scene;
-  } );
+
+    for (var i = 0; i < furniture.children.length; i++) {
+      furniture.children[i].visible = false;
+    }
+
+  });
 }
 
-function updateFurniture( layers ) {
-  for (var i = 0; i < furniture.children.length; i ++) {
+function updateFurniture(layers) {
+  for (var i = 0; i < furniture.children.length; i++) {
     furniture.children[i].visible = false;
   }
-  for (var i = 0; i < furniture.children.length; i ++) {
-    for (var j = 0; j < layers.length; j ++) {
+  for (var i = 0; i < furniture.children.length; i++) {
+    for (var j = 0; j < layers.length; j++) {
       if (furniture.children[i].name === layers[j]) {
         furniture.children[i].visible = true;
       }
@@ -148,4 +137,4 @@ function updateFurniture( layers ) {
   }
 }
 
-// loadFurniture("./models/test-desk/l-shaped-right.dae");
+// loadFurniture("3D-models/test-desk/l-shaped-right.dae");

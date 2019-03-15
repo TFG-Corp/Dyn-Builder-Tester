@@ -1392,7 +1392,8 @@
 							{
 								"name" : "3_person",
 								"title" : "3 Person",
-								"image" : "image/catalog/builder-images/l120-layout-1.png"
+								"image" : "image/catalog/builder-images/l120-layout-1.png",
+								"model_3d" : "3D-models/120-test/120-test1.dae"
 							},
 							{
 								"name" : "3_person_et",
