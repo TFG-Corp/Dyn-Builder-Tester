@@ -61,7 +61,7 @@ for (var property in parameters) {
 }
 output += '}</p>';
 
-$('#results').html(output);
+$('#results').append(output);
 
 function getAllUrlParams(url) {
 
@@ -145,8 +145,8 @@ function send() {
 var app;
 
 $("#builder-type").change(function () {
-  $("input[name='builder']").val($("#builder-type").val())
-  console.log('$("input[name=\'builder\']").val() changed')
+  $("input[name='builder']").val($("#builder-type").val());
+  console.log('$("input[name=\'builder\']").val() changed');
 
   app = new Vue({
   el: '#dynamic-form',
@@ -189,3 +189,25 @@ $('body').on('change', 'select', function () {
   }
 
 });
+
+
+$(document).ready(function () {
+  $('body').on('change', 'select', function () {
+
+    var svgRoot = document.getElementById("svg-glyph").contentDocument.documentElement;
+
+    $("svg g", svgRoot).addClass('st0');
+    $("svg g", svgRoot).attr('style', '');
+
+    var svg_selector = '#' + $(this).parent().attr('name') + "---" + $(this).val();
+
+    $('option:selected', '#dynamic-form').each(function (index) {
+      console.log(svg_selector);
+      $(svg_selector, svgRoot).removeClass('st0');
+    })
+
+  });
+});
+
+
+

@@ -73,7 +73,9 @@
           <hr class="margin-bottom-1x">
           <input class="btn btn-primary" type="submit">
         </div>
-        <div id="results" class="col-lg-9 col-md-8 order-sm-11"></div>
+        <div id="results" class="col-lg-9 col-md-8 order-sm-11">
+          <canvas class="mt-3" style="height: 300px" id="canvas-3D"></canvas>
+        </div>
       </div>
     </div>
   </form>
@@ -93,5 +95,14 @@
 <!-- production version, optimized for size and speed -->
 <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
 <script src="js/app.js?v=0.1.0"></script>
+
+
+<script src="js/three.js/three.min.js"></script>
+<script src="js/three.js/loaders/ColladaLoader.js"></script>
+<script src="js/three.js/controls/OrbitControls.js"></script>
+<script src="js/three.js/WebGL.js"></script>
+
+<script src="js/tfg_furniture_viewer.js"></script>
+
 </body>
 </html>
