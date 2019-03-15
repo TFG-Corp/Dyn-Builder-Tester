@@ -17,7 +17,8 @@ animate();
 
 function init() {
 
-  container = document.getElementById( 'canvas-3D' );
+  // container = document.getElementById( 'canvas-3D' );
+  container = document.getElementById( 'container-3D' );
 
 
   camera = new THREE.PerspectiveCamera( 15, container.clientWidth / container.clientHeight, 0.1, 2000 );
@@ -34,30 +35,21 @@ function init() {
 
   clock = new THREE.Clock();
 
-  // loading manager
-
-  var loadingManager = new THREE.LoadingManager( function () {
-
-    scene.add( furniture );
-
-  } );
-
-  // collada
-
-  var loader = new THREE.ColladaLoader( loadingManager );
-  loader.load( './3D-models/120-test/120-test1.dae', function ( collada ) {
-
-    furniture = collada.scene;
-  } );
-
-  // // LIGHTS
+  // // loading manager
   //
-  // var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.9 );
-  // scene.add( ambientLight );
+  // var loadingManager = new THREE.LoadingManager( function () {
   //
-  // var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.8 );
-  // directionalLight.position.set( 1, 1, 0 ).normalize();
-  // scene.add( directionalLight );
+  //   scene.add( furniture );
+  //
+  // } );
+  //
+  // // collada
+  //
+  // var loader = new THREE.ColladaLoader( loadingManager );
+  // loader.load( './3D-models/120-test/120-test1.dae', function ( collada ) {
+  //
+  //   furniture = collada.scene;
+  // } );
 
 
   // LIGHTS
@@ -76,11 +68,11 @@ function init() {
 
   //RENDERER
 
-  // renderer = new THREE.WebGLRenderer();
-  renderer = new THREE.WebGLRenderer({canvas: container});
+  renderer = new THREE.WebGLRenderer();
+  // renderer = new THREE.WebGLRenderer({canvas: container});
   renderer.setPixelRatio( window.devicePixelRatio );
   renderer.setSize( container.clientWidth, container.clientHeight );
-  // container.appendChild( renderer.domElement );
+  container.appendChild( renderer.domElement );
 
   //
   // Statics

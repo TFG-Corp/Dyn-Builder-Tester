@@ -1,9 +1,57 @@
 input[type='checkbox'] {
   -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
+  -moz-appearance: checkbox
 }
 
 
-#canvas-3D{
-  border-radius: 25px;
+
+#container-3D canvas {
+  border-radius: 25px
+}
+
+
+#container-3D {
+  height: 250px
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  #container-3D {
+    height: 250px
+  }
+
+  #container-3D canvas {
+    border-radius: 25px
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #container-3D {
+    height: 400px
+  }
+
+  #container-3D canvas {
+    border-radius: 50px
+  }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #container-3D {
+    height: 400px
+  }
+  #container-3D canvas {
+    border-radius: 50px
+  }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #container-3D {
+    height: 500px
+  }
+  #container-3D canvas {
+    border-radius: 55px
+  }
 }
