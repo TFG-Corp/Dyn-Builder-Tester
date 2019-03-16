@@ -1393,7 +1393,7 @@
 								"name" : "3_person",
 								"title" : "3 Person",
 								"image" : "image/catalog/builder-images/l120-layout-1.png",
-								"model_3d" : "3D-models/120-test/120-test1.dae"
+								"model_3d" : "3D-models/120-key/120-03.obj"
 							},
 							{
 								"name" : "3_person_et",
@@ -1430,7 +1430,18 @@
 											{
 												"name" : "radius_corner",
 												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
+												"children\r\n" : [
+													{
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
+													}
+												]
 											}
 										]
 									}
@@ -1492,7 +1503,18 @@
 											{
 												"name" : "radius_corner",
 												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
+												"children" : [
+													{
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
+													}
+												]
 											}
 										]
 									}
@@ -1533,7 +1555,18 @@
 											{
 												"name" : "radius_corner",
 												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
+												"image" : "image/catalog/builder-images/l120-layout-2.png",
+												"children" : [
+													{
+														"name" : "et_depth",
+														"title" : "End Table Depth",
+														"min" : "18",
+														"max" : "30",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
+													}
+												]
 											}
 										]
 									},

@@ -2274,6 +2274,46 @@
 						"section" : "Return Parameters"
 					},
 					{
+						"name" : "return_style",
+						"title" : "Return Style?",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "return_shell",
+								"title" : "Return Shell",
+								"image" : "image/catalog/builder-images/Desk-RF.png",
+								"children" : [
+									{
+										"name" : "return_modesty",
+										"title" : "Modesty Hieght",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "12",
+												"title" : "12"
+											},
+											{
+												"name" : "18",
+												"title" : "18"
+											},
+											{
+												"name" : "28",
+												"title" : "28"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "worksurface",
+								"title" : "Worksuraface Only",
+								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+							}
+						]
+					},
+					{
 						"name" : "return_width",
 						"title" : "Return Width",
 						"min" : "18",
@@ -6408,6 +6448,46 @@
 					},
 					{
 						"section" : "Return Parameters"
+					},
+					{
+						"name" : "return_style",
+						"title" : "Return Style?",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "return_shell",
+								"title" : "Return Shell",
+								"image" : "image/catalog/builder-images/Desk-RF.png",
+								"children" : [
+									{
+										"name" : "return_modesty",
+										"title" : "Modesty Hieght",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "12",
+												"title" : "12"
+											},
+											{
+												"name" : "18",
+												"title" : "18"
+											},
+											{
+												"name" : "28",
+												"title" : "28"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name" : "worksurface",
+								"title" : "Worksuraface Only",
+								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+							}
+						]
 					},
 					{
 						"name" : "return_width",
