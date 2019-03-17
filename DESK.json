@@ -269,8 +269,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -298,8 +298,8 @@
 															{
 																"name" : "above_desk_width_1",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -346,8 +346,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -377,8 +377,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -423,8 +423,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -454,8 +454,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -468,7 +468,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -500,8 +500,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -531,8 +531,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -545,7 +545,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -577,8 +577,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -608,8 +608,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -654,8 +654,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -685,8 +685,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -699,7 +699,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -731,8 +731,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -762,8 +762,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -776,7 +776,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -808,8 +808,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -839,8 +839,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -881,6 +881,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -903,6 +912,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -940,6 +958,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -962,6 +989,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -999,6 +1035,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -1021,6 +1066,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -1058,6 +1112,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -1080,6 +1143,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -1115,7 +1187,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1163,7 +1235,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1195,7 +1267,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1227,7 +1299,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1259,7 +1331,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1307,7 +1379,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -1909,163 +1981,6 @@
 												"title" : "No"
 											}
 										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "additional_storage1",
-						"title" : "Lower Bench Credenza",
-						"type" : "select",
-						"values" : [
-							{
-								"name" : "LBC-OPEN",
-								"title" : "Open Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/LBC-OPEN.png\r\n",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "LBC-BFOR",
-								"title" : "Half Open lower Bench Credenza-Right",
-								"image" : "image/catalog/builder-images/LBC-BFOR.png",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "LBC-BFOL",
-								"title" : "Half Open lower Bench Credenza-Left\r\n",
-								"image" : "image/catalog/builder-images/LBC-BFOL.png",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "LBC-BBFF\r\n",
-								"title" : "Double lower Bench Credenza",
-								"image" : "image/catalog/builder-images/LBC-BBFF.png\r\n",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "LBC-BFHDR",
-								"title" : "Left Hinge Door lower Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/LBC-BFHDR.png\r\n",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "LBC-BFHDL",
-								"title" : "Right Hinge Door lower Bench Credenza\r\n",
-								"image" : "image/catalog/builder-images/LBC-BFHDL.png\r\n",
-								"children" : [
-									{
-										"name" : "lbc_width_1",
-										"title" : "Credenza Width",
-										"min" : "60",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									},
-									{
-										"name" : "lbc_depth_1",
-										"title" : "Credenza Depth",
-										"min" : "19",
-										"max" : "24",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
 									}
 								]
 							}
@@ -2332,26 +2247,6 @@
 						"requiredField" : "true"
 					},
 					{
-						"name" : "return_modesty",
-						"title" : "Return Modesty",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "12",
-								"title" : "12"
-							},
-							{
-								"name" : "18",
-								"title" : "18"
-							},
-							{
-								"name" : "28",
-								"title" : "28"
-							}
-						]
-					},
-					{
 						"name" : "return_storage_1",
 						"title" : "Return Storage 1",
 						"type" : "select",
@@ -2746,7 +2641,7 @@
 							},
 							{
 								"name" : "BSC-RDBSC",
-								"title" : "Right Swing Single Door Base Storage Cabinet",
+								"title" : "Right Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
@@ -2762,7 +2657,7 @@
 							},
 							{
 								"name" : "BSC-LDBSC",
-								"title" : "Left Swing Single Door Base Storage Cabinet",
+								"title" : "Left Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
@@ -3205,7 +3100,7 @@
 							},
 							{
 								"name" : "BSC-RDBSC",
-								"title" : "Right Swing Single Door Base Storage Cabinet",
+								"title" : "Right Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
@@ -3221,7 +3116,7 @@
 							},
 							{
 								"name" : "BSC-LDBSC",
-								"title" : "Left Swing Single Door Base Storage Cabinet",
+								"title" : "Left Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
@@ -3274,7 +3169,7 @@
 					},
 					{
 						"name" : "above_desk_1",
-						"title" : "Above Desk Storage 1",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -3314,8 +3209,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3343,8 +3238,8 @@
 															{
 																"name" : "above_desk_width_1",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -3391,8 +3286,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3422,8 +3317,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3468,8 +3363,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3499,8 +3394,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3513,7 +3408,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -3545,8 +3440,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3576,8 +3471,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3590,7 +3485,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -3622,8 +3517,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3653,8 +3548,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3699,8 +3594,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3730,8 +3625,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3744,7 +3639,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -3776,8 +3671,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3807,8 +3702,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3821,7 +3716,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -3853,8 +3748,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3884,8 +3779,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -3926,6 +3821,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -3948,6 +3852,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -3985,6 +3898,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -4007,6 +3929,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -4044,6 +3975,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -4066,6 +4006,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -4103,6 +4052,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -4125,6 +4083,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -4160,10 +4127,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4192,10 +4175,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4208,10 +4207,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4224,7 +4239,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -4256,10 +4271,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4288,10 +4319,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4304,10 +4351,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4320,10 +4383,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4339,10 +4418,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4355,10 +4450,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4371,10 +4482,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4387,10 +4514,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4403,10 +4546,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4419,10 +4578,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4435,10 +4610,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4451,10 +4642,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4470,10 +4677,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4486,10 +4709,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4502,10 +4741,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4518,10 +4773,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4534,10 +4805,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4550,10 +4837,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4566,10 +4869,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -4582,10 +4901,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							}
@@ -4593,7 +4928,7 @@
 					},
 					{
 						"name" : "above_desk_2",
-						"title" : "Above Desk Storage 2",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -4633,8 +4968,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4662,8 +4997,8 @@
 															{
 																"name" : "above_desk_width_2",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -4710,8 +5045,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4741,8 +5076,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4787,8 +5122,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4818,8 +5153,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4832,7 +5167,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -4864,8 +5199,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4895,8 +5230,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4909,7 +5244,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -4941,8 +5276,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -4972,8 +5307,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5018,8 +5353,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5049,8 +5384,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5063,7 +5398,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -5095,8 +5430,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5126,8 +5461,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5140,7 +5475,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -5172,8 +5507,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5203,8 +5538,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -5245,6 +5580,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -5267,6 +5611,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -5304,6 +5657,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -5326,6 +5688,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -5363,6 +5734,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -5385,6 +5765,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -5422,6 +5811,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -5444,6 +5842,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -5479,7 +5886,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5527,7 +5934,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5559,7 +5966,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5591,26 +5998,10 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
-									},
-									{
-										"name" : "tackboard_2",
-										"title" : "Do you need a Tackboard?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "yes",
-												"title" : "Yes"
-											},
-											{
-												"name" : "No",
-												"title" : "No"
-											}
-										]
 									}
 								]
 							},
@@ -5639,7 +6030,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5687,7 +6078,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5719,7 +6110,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5751,7 +6142,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5786,7 +6177,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5818,7 +6209,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5850,7 +6241,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5882,7 +6273,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5914,7 +6305,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5946,7 +6337,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -5978,7 +6369,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6010,7 +6401,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6045,7 +6436,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6077,7 +6468,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6109,7 +6500,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6141,7 +6532,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6173,7 +6564,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6205,7 +6596,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6237,7 +6628,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6269,7 +6660,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6506,26 +6897,6 @@
 						"type" : "input",
 						"inputType" : "number",
 						"requiredField" : "true"
-					},
-					{
-						"name" : "return_modesty",
-						"title" : "Return Modesty",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "12",
-								"title" : "12"
-							},
-							{
-								"name" : "18",
-								"title" : "18"
-							},
-							{
-								"name" : "28",
-								"title" : "28"
-							}
-						]
 					},
 					{
 						"section" : "Storage"
@@ -6972,7 +7343,7 @@
 							},
 							{
 								"name" : "BSC-RDBSC",
-								"title" : "Right Swing Single Door Base Storage Cabinet",
+								"title" : "Right Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
@@ -6988,7 +7359,7 @@
 							},
 							{
 								"name" : "BSC-LDBSC",
-								"title" : "Left Swing Single Door Base Storage Cabinet",
+								"title" : "Left Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
@@ -7431,7 +7802,7 @@
 							},
 							{
 								"name" : "BSC-RDBSC",
-								"title" : "Right Swing Single Door Base Storage Cabinet",
+								"title" : "Right Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
 								"children" : [
 									{
@@ -7447,7 +7818,7 @@
 							},
 							{
 								"name" : "BSC-LDBSC",
-								"title" : "Left Swing Single Door Base Storage Cabinet",
+								"title" : "Left Door Base Storage Cabinet",
 								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
 								"children" : [
 									{
@@ -7497,7 +7868,7 @@
 					},
 					{
 						"name" : "above_desk_1",
-						"title" : "Above Desk Storage 1",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -7537,8 +7908,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7566,8 +7937,8 @@
 															{
 																"name" : "above_desk_width_1",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -7614,8 +7985,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7645,8 +8016,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7691,8 +8062,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7722,8 +8093,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7736,7 +8107,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -7768,8 +8139,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7799,8 +8170,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7813,7 +8184,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -7845,8 +8216,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7876,8 +8247,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7922,8 +8293,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7953,8 +8324,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -7967,7 +8338,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -7999,8 +8370,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8030,8 +8401,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8044,7 +8415,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -8076,8 +8447,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8107,8 +8478,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8149,6 +8520,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -8171,6 +8551,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -8208,6 +8597,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -8230,6 +8628,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -8267,6 +8674,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -8289,6 +8705,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -8326,6 +8751,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -8348,6 +8782,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -8383,10 +8826,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8415,10 +8874,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8431,10 +8906,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8447,7 +8938,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -8479,10 +8970,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8511,10 +9018,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8527,10 +9050,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8543,10 +9082,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8562,10 +9117,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8578,10 +9149,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8594,10 +9181,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8610,10 +9213,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8626,10 +9245,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8642,10 +9277,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8658,10 +9309,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8674,10 +9341,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8693,10 +9376,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8709,10 +9408,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8725,10 +9440,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8741,10 +9472,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8757,10 +9504,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8773,10 +9536,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8789,10 +9568,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -8805,10 +9600,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							}
@@ -8816,7 +9627,7 @@
 					},
 					{
 						"name" : "above_desk_2",
-						"title" : "Above Desk Storage 2",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -8856,8 +9667,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8885,8 +9696,8 @@
 															{
 																"name" : "above_desk_width_2",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -8933,8 +9744,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -8964,8 +9775,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9010,8 +9821,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9041,8 +9852,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9055,7 +9866,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -9087,8 +9898,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9118,8 +9929,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9132,7 +9943,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -9164,8 +9975,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9195,8 +10006,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9241,8 +10052,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9272,8 +10083,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9286,7 +10097,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -9318,8 +10129,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9349,8 +10160,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9363,7 +10174,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -9395,8 +10206,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9426,8 +10237,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -9468,6 +10279,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -9490,6 +10310,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -9527,6 +10356,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -9549,6 +10387,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -9586,6 +10433,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -9608,6 +10464,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -9645,6 +10510,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -9667,6 +10541,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -9702,7 +10585,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9750,7 +10633,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9782,7 +10665,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9814,26 +10697,10 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
-									},
-									{
-										"name" : "tackboard_2",
-										"title" : "Do you need a Tackboard?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "yes",
-												"title" : "Yes"
-											},
-											{
-												"name" : "No",
-												"title" : "No"
-											}
-										]
 									}
 								]
 							},
@@ -9862,7 +10729,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9910,7 +10777,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9942,7 +10809,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -9974,7 +10841,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10009,7 +10876,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10041,7 +10908,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10073,7 +10940,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10105,7 +10972,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10137,7 +11004,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10169,7 +11036,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10201,7 +11068,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10233,7 +11100,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10268,7 +11135,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10300,7 +11167,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10332,7 +11199,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10364,7 +11231,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10396,7 +11263,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10428,7 +11295,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10460,7 +11327,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -10492,7 +11359,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -11695,7 +12562,7 @@
 					},
 					{
 						"name" : "above_desk_1",
-						"title" : "Above Desk Storage 1",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -11735,8 +12602,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11764,8 +12631,8 @@
 															{
 																"name" : "above_desk_width_1",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -11812,8 +12679,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11843,8 +12710,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11889,8 +12756,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11920,8 +12787,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11934,7 +12801,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -11966,8 +12833,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -11997,8 +12864,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12011,7 +12878,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -12043,8 +12910,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12074,8 +12941,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12120,8 +12987,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12151,8 +13018,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12165,7 +13032,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -12197,8 +13064,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12228,8 +13095,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12242,7 +13109,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -12274,8 +13141,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12305,8 +13172,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -12347,6 +13214,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -12369,6 +13245,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -12406,6 +13291,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -12428,6 +13322,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -12465,6 +13368,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -12487,6 +13399,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -12524,6 +13445,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -12546,6 +13476,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -12581,10 +13520,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12613,10 +13568,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12629,10 +13600,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12645,7 +13632,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -12677,10 +13664,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12709,10 +13712,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12725,10 +13744,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12741,10 +13776,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12760,10 +13811,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12776,10 +13843,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12792,10 +13875,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12808,10 +13907,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12824,10 +13939,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12840,10 +13971,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12856,10 +14003,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12872,10 +14035,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12891,10 +14070,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12907,10 +14102,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12923,10 +14134,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12939,10 +14166,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12955,10 +14198,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12971,10 +14230,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -12987,10 +14262,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -13003,10 +14294,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							}
@@ -14248,7 +15555,7 @@
 					},
 					{
 						"name" : "above_desk_1",
-						"title" : "Above Desk Storage 1",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -14288,8 +15595,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14317,8 +15624,8 @@
 															{
 																"name" : "above_desk_width_1",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -14365,8 +15672,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14396,8 +15703,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14442,8 +15749,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14473,8 +15780,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14487,7 +15794,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -14519,8 +15826,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14550,8 +15857,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14564,7 +15871,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -14596,8 +15903,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14627,8 +15934,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14673,8 +15980,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14704,8 +16011,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14718,7 +16025,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -14750,8 +16057,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14781,8 +16088,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14795,7 +16102,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -14827,8 +16134,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14858,8 +16165,8 @@
 													{
 														"name" : "above_desk_width_1",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -14900,6 +16207,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -14922,6 +16238,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -14959,6 +16284,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -14981,6 +16315,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -15018,6 +16361,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -15040,6 +16392,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -15077,6 +16438,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -15099,6 +16469,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_1",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -15134,10 +16513,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15166,10 +16561,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15182,10 +16593,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15198,7 +16625,7 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -15230,10 +16657,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15262,10 +16705,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15278,10 +16737,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15294,10 +16769,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15313,10 +16804,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15329,10 +16836,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15345,10 +16868,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15361,10 +16900,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15377,10 +16932,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15393,10 +16964,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15409,10 +16996,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15425,10 +17028,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15444,10 +17063,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15460,10 +17095,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15476,10 +17127,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15492,10 +17159,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15508,10 +17191,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15524,10 +17223,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15540,10 +17255,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
@@ -15556,10 +17287,26 @@
 										"name" : "above_desk_width_1",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
+									},
+									{
+										"name" : "tackboard_1",
+										"title" : "Do you need a Tackboard?",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "No",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							}
@@ -15567,7 +17314,7 @@
 					},
 					{
 						"name" : "above_desk_2",
-						"title" : "Above Desk Storage 2",
+						"title" : "Above Desk Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -15607,8 +17354,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15636,8 +17383,8 @@
 															{
 																"name" : "above_desk_width_2",
 																"title" : "Stacking Cabinet Width",
-																"min" : "36",
-																"max" : "72",
+																"min" : "12",
+																"max" : "36",
 																"type" : "input",
 																"inputType" : "number",
 																"requiredField" : "true"
@@ -15684,8 +17431,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15715,8 +17462,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15761,8 +17508,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15792,8 +17539,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15806,7 +17553,7 @@
 							},
 							{
 								"name" : "SSC-2DSSC",
-								"title" : "Laminate Stacking Cabinet ",
+								"title" : "2 Door Stacking Cabinet ",
 								"image" : "image/catalog/builder-images/SSC-2DSSC.png",
 								"children" : [
 									{
@@ -15838,8 +17585,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15869,8 +17616,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15883,7 +17630,7 @@
 							},
 							{
 								"name" : "SSCC-RDSSCC",
-								"title" : "Right  Stacking Cabinet With Cubby",
+								"title" : "Right Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-RDSSCC.png",
 								"children" : [
 									{
@@ -15915,8 +17662,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15946,8 +17693,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -15992,8 +17739,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16023,8 +17770,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16037,7 +17784,7 @@
 							},
 							{
 								"name" : "SSCC-LDSSCC",
-								"title" : "Left Stacking Cabinet With Cubby",
+								"title" : "Left Door Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-LDSSCC.png",
 								"children" : [
 									{
@@ -16069,8 +17816,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16100,8 +17847,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "12",
+														"max" : "24",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16114,7 +17861,7 @@
 							},
 							{
 								"name" : "SSCC-2DSSCC",
-								"title" : "Laminate Stacking Cabinet With Cubby",
+								"title" : "2 Door  Stacking Cabinet With Cubby",
 								"image" : "image/catalog/builder-images/SSCC-2DSSCC.png",
 								"children" : [
 									{
@@ -16146,8 +17893,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16177,8 +17924,8 @@
 													{
 														"name" : "above_desk_width_2",
 														"title" : "Stacking Cabinet Width",
-														"min" : "36",
-														"max" : "72",
+														"min" : "24",
+														"max" : "36",
 														"type" : "input",
 														"inputType" : "number",
 														"requiredField" : "true"
@@ -16219,6 +17966,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -16241,6 +17997,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -16278,6 +18043,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -16300,6 +18074,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -16337,6 +18120,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -16359,6 +18151,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -16396,6 +18197,15 @@
 																"title" : "43"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											},
@@ -16418,6 +18228,15 @@
 																"title" : "50"
 															}
 														]
+													},
+													{
+														"name" : "above_desk_width_2",
+														"title" : "Stacking Cabinet Width",
+														"min" : "24",
+														"max" : "36",
+														"type" : "input",
+														"inputType" : "number",
+														"requiredField" : "true"
 													}
 												]
 											}
@@ -16453,7 +18272,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16501,7 +18320,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16533,7 +18352,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16565,26 +18384,10 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
-									},
-									{
-										"name" : "tackboard_2",
-										"title" : "Do you need a Tackboard?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "yes",
-												"title" : "Yes"
-											},
-											{
-												"name" : "No",
-												"title" : "No"
-											}
-										]
 									}
 								]
 							},
@@ -16613,7 +18416,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16661,7 +18464,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16693,7 +18496,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16725,7 +18528,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16760,7 +18563,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16792,7 +18595,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16824,7 +18627,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16856,7 +18659,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16888,7 +18691,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16920,7 +18723,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16952,7 +18755,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -16984,7 +18787,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17019,7 +18822,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17051,7 +18854,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17083,7 +18886,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17115,7 +18918,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17147,7 +18950,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17179,7 +18982,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17211,7 +19014,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -17243,7 +19046,7 @@
 										"name" : "above_desk_width_2",
 										"title" : "Hutch Width",
 										"min" : "36",
-										"max" : "72",
+										"max" : "84",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
