@@ -1,2027 +1,2028 @@
 [
-	{
-		"name" : "product_group",
-		"title" : "Product Group",
-		"type" : "input",
-		"inputType" : "text",
-		"requiredField" : "true"
-	},
-	{
-		"name" : "bench_style",
-		"title" : "Bench Style",
-		"type" : "select",
-		"requiredField" : "true",
-		"values" : [
-			{
-				"name" : "java",
-				"title" : "JAVA-LAMINATE BASE",
-				"children" : [
-					{
-						"name" : "layout",
-						"title" : "Layout",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "single",
-								"title" : "Single",
-								"children" : [
-									{
-										"name" : "divider",
-										"title" : "Do You want Desk Acrylic Screens?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "yes",
-												"title" : "Yes"
-											},
-											{
-												"name" : "no",
-												"title" : "No"
-											}
-										]
-									},
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "1",
-												"title" : "1"
-											},
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "3",
-												"title" : "3"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "5",
-												"title" : "5"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "7",
-												"title" : "7"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "9",
-												"title" : "9"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "double",
-								"title" : "Double",
-								"children" : [
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											},
-											{
-												"name" : "12",
-												"title" : "12"
-											},
-											{
-												"name" : "14",
-												"title" : "14"
-											},
-											{
-												"name" : "16",
-												"title" : "16"
-											},
-											{
-												"name" : "18",
-												"title" : "18"
-											},
-											{
-												"name" : "20",
-												"title" : "20"
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "grommet",
-						"title" : "Worksurface Grommet",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "center",
-								"title" : "Center"
-							},
-							{
-								"name" : "lr",
-								"title" : "L/R"
-							}
-						]
-					},
-					{
-						"name" : "left_end",
-						"title" : "Left End Height",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "low",
-								"title" : "Low"
-							},
-							{
-								"name" : "high",
-								"title" : "High"
-							}
-						]
-					},
-					{
-						"name" : "right_end",
-						"title" : "Right End Height",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "low",
-								"title" : "Low"
-							},
-							{
-								"name" : "high",
-								"title" : "High"
-							}
-						]
-					},
-					{
-						"name" : "power_source",
-						"title" : "Power Source",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "left_side",
-								"title" : "Left Side"
-							},
-							{
-								"name" : "right_side",
-								"title" : "Right Side"
-							}
-						]
-					},
-					{
-						"name" : "tackboard",
-						"title" : "Add Tackboards?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes"
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "panel_acrylic",
-						"title" : "Add Acrylic Screens on Panels?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "panel_ac_height",
-										"title" : "Screen Height",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "12",
-												"title" : "12"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "electrical",
-						"title" : "Add Electrical?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "outlets",
-										"title" : "How Many Outlets Per Seat?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "panel_height",
-						"title" : "Panel Height",
-						"min" : "36",
-						"max" : "50",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "desk_width",
-						"title" : "Desk Width",
-						"min" : "36",
-						"max" : "72",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "desk_depth",
-						"title" : "Desk Depth",
-						"min" : "23",
-						"max" : "30",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "modesty",
-						"title" : "Modesty",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "12",
-								"title" : "12"
-							},
-							{
-								"name" : "28",
-								"title" : "28"
-							}
-						]
-					},
-					{
-						"section" : "Storage"
-					},
-					{
-						"name" : "desk_pedestal_1",
-						"title" : "Desk Pedestal",
-						"type" : "select",
-						"values" : [
-							{
-								"name" : "SPED-PD",
-								"title" : "Pencil Drawer Pedestal",
-								"image" : "image/catalog/builder-images/SPED-PD.png"
-							},
-							{
-								"name" : "SPED-BF",
-								"title" : "Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BF.png"
-							},
-							{
-								"name" : "SPED-HBF",
-								"title" : "Hanging Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-HBF.png"
-							},
-							{
-								"name" : "SPED-BBF",
-								"title" : "Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BBF.png"
-							},
-							{
-								"name" : "SPED-FF",
-								"title" : "File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-FF.png"
-							},
-							{
-								"name" : "SPED-MBF",
-								"title" : "Mobile-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBF.png"
-							},
-							{
-								"name" : "SPED-MBBF",
-								"title" : "Mobile-Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBBF.png"
-							},
-							{
-								"name" : "SPED-MFF",
-								"title" : "Mobile-File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MFF.png"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name" : "ruby",
-				"title" : "RUBY-LAMINATE BASE",
-				"children" : [
-					{
-						"section" : "General Parameters"
-					},
-					{
-						"name" : "layout",
-						"title" : "Layout",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "single",
-								"title" : "Single",
-								"children" : [
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "1",
-												"title" : "1"
-											},
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "3",
-												"title" : "3"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "5",
-												"title" : "5"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "7",
-												"title" : "7"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "9",
-												"title" : "9"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "double",
-								"title" : "Double",
-								"children" : [
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											},
-											{
-												"name" : "12",
-												"title" : "12"
-											},
-											{
-												"name" : "14",
-												"title" : "14"
-											},
-											{
-												"name" : "16",
-												"title" : "16"
-											},
-											{
-												"name" : "18",
-												"title" : "18"
-											},
-											{
-												"name" : "20",
-												"title" : "20"
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "grommet",
-						"title" : "Worksurface Grommet",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "center",
-								"title" : "Center"
-							},
-							{
-								"name" : "lr",
-								"title" : "L/R"
-							}
-						]
-					},
-					{
-						"name" : "power_source",
-						"title" : "Power Source",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "left_side",
-								"title" : "Left Side"
-							},
-							{
-								"name" : "right_side",
-								"title" : "Right Side"
-							}
-						]
-					},
-					{
-						"name" : "tackboard",
-						"title" : "Add Tackboards?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes"
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "panel_acrylic",
-						"title" : "Add Acrylic Screens on Panels?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "panel_ac_height",
-										"title" : "Screen Height",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "12",
-												"title" : "12"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "electrical",
-						"title" : "Add Electrical?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "outlets",
-										"title" : "How Many Outlets Per Seat?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "panel_height",
-						"title" : "Panel Height",
-						"min" : "36",
-						"max" : "50",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "desk_width",
-						"title" : "Desk Width",
-						"min" : "36",
-						"max" : "72",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "desk_depth",
-						"title" : "Desk Depth",
-						"min" : "23",
-						"max" : "30",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "modesty",
-						"title" : "Modesty",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "12",
-								"title" : "12"
-							},
-							{
-								"name" : "28",
-								"title" : "28"
-							}
-						]
-					},
-					{
-						"section" : "Storage"
-					},
-					{
-						"name" : "desk_pedestal_1",
-						"title" : "Desk Pedestal",
-						"type" : "select",
-						"values" : [
-							{
-								"name" : "SPED-PD",
-								"title" : "Pencil Drawer Pedestal",
-								"image" : "image/catalog/builder-images/SPED-PD.png"
-							},
-							{
-								"name" : "SPED-BF",
-								"title" : "Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BF.png"
-							},
-							{
-								"name" : "SPED-HBF",
-								"title" : "Hanging Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-HBF.png"
-							},
-							{
-								"name" : "SPED-BBF",
-								"title" : "Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BBF.png"
-							},
-							{
-								"name" : "SPED-FF",
-								"title" : "File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-FF.png"
-							},
-							{
-								"name" : "SPED-MBF",
-								"title" : "Mobile-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBF.png"
-							},
-							{
-								"name" : "SPED-MBBF",
-								"title" : "Mobile-Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBBF.png"
-							},
-							{
-								"name" : "SPED-MFF",
-								"title" : "Mobile-File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MFF.png"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name" : "jade",
-				"title" : "JADA-METAL BASE",
-				"children" : [
-					{
-						"section" : "General Parameters"
-					},
-					{
-						"name" : "leg_style",
-						"title" : "Leg Style",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "o_leg",
-								"title" : "O-LEG"
-							},
-							{
-								"name" : "n_leg",
-								"title" : "N-LEG"
-							},
-							{
-								"name" : "v_leg",
-								"title" : "V-LEG"
-							}
-						]
-					},
-					{
-						"name" : "layout",
-						"title" : "Layout",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "single",
-								"title" : "Single",
-								"children" : [
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "1",
-												"title" : "1"
-											},
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "3",
-												"title" : "3"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "5",
-												"title" : "5"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "7",
-												"title" : "7"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "9",
-												"title" : "9"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "double",
-								"title" : "Double",
-								"children" : [
-									{
-										"name" : "seats",
-										"title" : "How Manny Seats?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											},
-											{
-												"name" : "6",
-												"title" : "6"
-											},
-											{
-												"name" : "8",
-												"title" : "8"
-											},
-											{
-												"name" : "10",
-												"title" : "10"
-											},
-											{
-												"name" : "12",
-												"title" : "12"
-											},
-											{
-												"name" : "14",
-												"title" : "14"
-											},
-											{
-												"name" : "16",
-												"title" : "16"
-											},
-											{
-												"name" : "18",
-												"title" : "18"
-											},
-											{
-												"name" : "20",
-												"title" : "20"
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "grommet",
-						"title" : "Worksurface Grommet",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "center",
-								"title" : "Center"
-							},
-							{
-								"name" : "lr",
-								"title" : "L/R"
-							}
-						]
-					},
-					{
-						"name" : "desk_width",
-						"title" : "Desk Width",
-						"min" : "36",
-						"max" : "72",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"name" : "desk_depth",
-						"title" : "Desk Depth",
-						"min" : "23",
-						"max" : "30",
-						"type" : "input",
-						"inputType" : "number",
-						"requiredField" : "true"
-					},
-					{
-						"section" : "Spine Parameters"
-					},
-					{
-						"name" : "spine_screen",
-						"title" : "Do you want Screens on the Spine?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "spine_screen_type",
-										"title" : "Laminate or Acrylic?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "acrylic",
-												"title" : "Acrylic",
-												"children" : [
-													{
-														"name" : "spine_ac_height",
-														"title" : "Spine Acrylic Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "spine_ac_width",
-														"title" : "Spine Acrylic Screen width?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "full_width",
-																"title" : "Full Width"
-															},
-															{
-																"name" : "offset",
-																"title" : "Offset"
-															}
-														]
-													}
-												]
-											},
-											{
-												"name" : "laminate",
-												"title" : "Laminate",
-												"children" : [
-													{
-														"name" : "spine_lam_height",
-														"title" : "Laminate Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "spine_lam_width",
-														"title" : "Laminate Screen Width?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "full_width",
-																"title" : "Full Width"
-															},
-															{
-																"name" : "offset",
-																"title" : "Offset"
-															}
-														]
-													},
-													{
-														"name" : "spine_tackboard",
-														"title" : "Would You Like to Add Tackboards?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes"
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													},
-													{
-														"name" : "spine_panel_acrylic",
-														"title" : "Would You Like Acrylic Above Laminate?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "spine_panel_ac_height",
-																		"title" : "Acrylic Above Laminate Screen Height?",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "6",
-																				"title" : "6",
-																				"children" : []
-																			},
-																			{
-																				"name" : "8",
-																				"title" : "8"
-																			},
-																			{
-																				"name" : "12",
-																				"title" : "12"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													},
-													{
-														"name" : "accessories",
-														"title" : "Would You Like to Add Aaccessories?",
-														"type" : "select",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "tray",
-																		"title" : "Please Choose Tray",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "pencil",
-																				"title" : "Pencil Tray"
-																			},
-																			{
-																				"name" : "paper",
-																				"title" : "Letter Tray"
-																			},
-																			{
-																				"name" : "file",
-																				"title" : "File Hanger"
-																			},
-																			{
-																				"name" : "paper-file",
-																				"title" : "Paper and File  Tray"
-																			},
-																			{
-																				"name" : "paper-pencil",
-																				"title" : "Paper and Pencil Tray"
-																			},
-																			{
-																				"name" : "file-pancel",
-																				"title" : "File and Pencil Tray"
-																			},
-																			{
-																				"name" : "paper-paper",
-																				"title" : "2 paper Tray's"
-																			},
-																			{
-																				"name" : "pencil-pencil",
-																				"title" : "2 Pencil Tray\"s"
-																			},
-																			{
-																				"name" : "file-file",
-																				"title" : "2 File Holder's"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"section" : "Wing Parameters"
-					},
-					{
-						"name" : "wing_screen",
-						"title" : "Would You Like to add  Screens on the Wing?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "wing_screen_type",
-										"title" : "Laminate or Acrylic?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "acrylic",
-												"title" : "Acrylic",
-												"children" : [
-													{
-														"name" : "wing_ac_height",
-														"title" : "Spine Acrylic Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													}
-												]
-											},
-											{
-												"name" : "laminate",
-												"title" : "Laminate",
-												"children" : [
-													{
-														"name" : "wing_lam_height",
-														"title" : "Laminate Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "wing_tackboard",
-														"title" : "Add Tackboards?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes"
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													},
-													{
-														"name" : "wing_panel_acrylic",
-														"title" : "Would You Like to Add Acrylic Above Laminate?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : {
-																	"[0]" : {
-																		"name" : "panel_ac_height",
-																		"title" : "Acrylic Above Laminate Screen Height?",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "6",
-																				"title" : "6",
-																				"children" : []
-																			},
-																			{
-																				"name" : "8",
-																				"title" : "8"
-																			},
-																			{
-																				"name" : "12",
-																				"title" : "12"
-																			}
-																		]
-																	}
-																},
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "wing_panel_ac_height",
-																		"title" : "Acrylic Above Laminate Screen Height?",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "6",
-																				"title" : "6",
-																				"children" : []
-																			},
-																			{
-																				"name" : "8",
-																				"title" : "8"
-																			},
-																			{
-																				"name" : "12",
-																				"title" : "12"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "electrical",
-						"title" : "Would You Like to Add Electrical?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "outlets",
-										"title" : "How Many Outlets Per Seat?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"section" : "Storage"
-					},
-					{
-						"name" : "desk_pedestal_1",
-						"title" : "Desk Pedestal",
-						"type" : "select",
-						"values" : [
-							{
-								"name" : "SPED-PD",
-								"title" : "Pencil Drawer Pedestal",
-								"image" : "image/catalog/builder-images/SPED-PD.png"
-							},
-							{
-								"name" : "SPED-BF",
-								"title" : "Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BF.png"
-							},
-							{
-								"name" : "SPED-HBF",
-								"title" : "Hanging Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-HBF.png"
-							},
-							{
-								"name" : "SPED-BBF",
-								"title" : "Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BBF.png"
-							},
-							{
-								"name" : "SPED-FF",
-								"title" : "File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-FF.png"
-							},
-							{
-								"name" : "SPED-MBF",
-								"title" : "Mobile-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBF.png"
-							},
-							{
-								"name" : "SPED-MBBF",
-								"title" : "Mobile-Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBBF.png"
-							},
-							{
-								"name" : "SPED-MFF",
-								"title" : "Mobile-File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MFF.png"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name" : "120d",
-				"title" : "120° BENCH",
-				"children" : [
-					{
-						"name" : "layout",
-						"title" : "Layout",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "3_person",
-								"title" : "3 Person",
-								"image" : "image/catalog/builder-images/l120-layout-1.png",
-								"model_3d" : "3D-models/120-test/120-test1.dae"
-							},
-							{
-								"name" : "3_person_et",
-								"title" : "3 Person + End Table",
-								"image" : "image/catalog/builder-images/l120-layout-2.png",
-								"children" : [
-									{
-										"name" : "end_table_style",
-										"title" : "End Table Style",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "rectangular",
-												"title" : "Rectangular",
-												"image" : "image/catalog/builder-images/l120-layout-2.png",
-												"children" : [
-													{
-														"name" : "et_depth",
-														"title" : "End Table Depth",
-														"min" : "18",
-														"max" : "30",
-														"type" : "input",
-														"inputType" : "number",
-														"requiredField" : "true"
-													}
-												]
-											},
-											{
-												"name" : "half_moon",
-												"title" : "Half Moon",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											},
-											{
-												"name" : "radius_corner",
-												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "6_person",
-								"title" : "6 Person",
-								"image" : "image/catalog/builder-images/l120-layout-2.png"
-							},
-							{
-								"name" : "6_person_br",
-								"title" : "6 Person + Bridge",
-								"image" : "image/catalog/builder-images/l120-layout-2.png",
-								"children" : [
-									{
-										"name" : "bridge_width",
-										"title" : "Bridge Width",
-										"min" : "24",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							},
-							{
-								"name" : "6_person_et",
-								"title" : "6 Person + End Table",
-								"image" : "image/catalog/builder-images/l120-layout-2.png",
-								"children" : [
-									{
-										"name" : "end_table_style",
-										"title" : "End Table Style",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "rectangular",
-												"title" : "Rectangular",
-												"image" : "image/catalog/builder-images/l120-layout-2.png",
-												"children" : [
-													{
-														"name" : "et_depth",
-														"title" : "End Table Depth",
-														"min" : "18",
-														"max" : "30",
-														"type" : "input",
-														"inputType" : "number",
-														"requiredField" : "true"
-													}
-												]
-											},
-											{
-												"name" : "half_moon",
-												"title" : "Half Moon",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											},
-											{
-												"name" : "radius_corner",
-												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "6_person_et_br",
-								"title" : "6 Person + End Table + Bridge",
-								"image" : "image/catalog/builder-images/l120-layout-2.png",
-								"children" : [
-									{
-										"name" : "end_table_style",
-										"title" : "End Table Style",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "rectangular",
-												"title" : "Rectangular",
-												"image" : "image/catalog/builder-images/l120-layout-2.png",
-												"children" : [
-													{
-														"name" : "et_depth",
-														"title" : "End Table Depth",
-														"min" : "18",
-														"max" : "30",
-														"type" : "input",
-														"inputType" : "number",
-														"requiredField" : "true"
-													}
-												]
-											},
-											{
-												"name" : "half_moon",
-												"title" : "Half Moon",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											},
-											{
-												"name" : "radius_corner",
-												"title" : "Radius Corner",
-												"image" : "image/catalog/builder-images/l120-layout-2.png"
-											}
-										]
-									},
-									{
-										"name" : "bridge_width",
-										"title" : "Bridge Width",
-										"min" : "24",
-										"max" : "72",
-										"type" : "input",
-										"inputType" : "number",
-										"requiredField" : "true"
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "base",
-						"title" : "Base",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "laminate",
-								"title" : "Laminate",
-								"children" : [
-									{
-										"name" : "modesty",
-										"title" : "Modesty",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "12",
-												"title" : "12"
-											},
-											{
-												"name" : "28",
-												"title" : "28"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "metal",
-								"title" : "Metal",
-								"children" : [
-									{
-										"name" : "leg_style",
-										"title" : "Leg Style?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "o_leg",
-												"title" : "O-LEG"
-											},
-											{
-												"name" : "n_leg",
-												"title" : "N-LEG"
-											},
-											{
-												"name" : "v_leg",
-												"title" : "V-LEG"
-											}
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"name" : "desk_size",
-						"title" : "Desk Size",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "36",
-								"title" : "36"
-							},
-							{
-								"name" : "42",
-								"title" : "42"
-							},
-							{
-								"name" : "48",
-								"title" : "48"
-							}
-						]
-					},
-					{
-						"section" : "Divider & Screens"
-					},
-					{
-						"name" : "screen",
-						"title" : "Do you want divider screens?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "screen_type",
-										"title" : "Please choose screen style",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "acrylic",
-												"title" : "Acrylic",
-												"children" : [
-													{
-														"name" : "divider_ac_height",
-														"title" : "Acrylic Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "divider_ac_width",
-														"title" : "Acrylic Screen width?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "full_width",
-																"title" : "Full Width"
-															},
-															{
-																"name" : "offset",
-																"title" : "Offset"
-															}
-														]
-													}
-												]
-											},
-											{
-												"name" : "laminate",
-												"title" : "Laminate",
-												"children" : [
-													{
-														"name" : "lam_height",
-														"title" : "Laminate Screen Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "lam_width",
-														"title" : "Laminate Screen Width?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "full_width",
-																"title" : "Full Width"
-															},
-															{
-																"name" : "offset",
-																"title" : "Offset"
-															}
-														]
-													},
-													{
-														"name" : "tackboard",
-														"title" : "Would you like to add Tackboards?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes"
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													},
-													{
-														"name" : "panel_acrylic",
-														"title" : "Would you like Acrylic above Laminate Screen?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "panel_ac_height",
-																		"title" : "Acrylic Above Laminate Screen Height?",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "6",
-																				"title" : "6",
-																				"children" : []
-																			},
-																			{
-																				"name" : "8",
-																				"title" : "8"
-																			},
-																			{
-																				"name" : "12",
-																				"title" : "12"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													},
-													{
-														"name" : "accessories",
-														"title" : "Would You Like to Add Aaccessories?",
-														"type" : "select",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "tray",
-																		"title" : "Please Choose Tray",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "pencil",
-																				"title" : "Pencil Tray"
-																			},
-																			{
-																				"name" : "paper",
-																				"title" : "Letter Tray"
-																			},
-																			{
-																				"name" : "file",
-																				"title" : "File Hanger"
-																			},
-																			{
-																				"name" : "paper-file",
-																				"title" : "Paper and File  Tray"
-																			},
-																			{
-																				"name" : "paper-pencil",
-																				"title" : "Paper and Pencil Tray"
-																			},
-																			{
-																				"name" : "file-pancel",
-																				"title" : "File and Pencil Tray"
-																			},
-																			{
-																				"name" : "paper-paper",
-																				"title" : "2 paper Tray's"
-																			},
-																			{
-																				"name" : "pencil-pencil",
-																				"title" : "2 Pencil Tray\"s"
-																			},
-																			{
-																				"name" : "file-file",
-																				"title" : "2 File Holder's"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													}
-												]
-											},
-											{
-												"name" : "white_board",
-												"title" : "Whiteboard",
-												"children" : [
-													{
-														"name" : "wb_height",
-														"title" : "Whiteboard Height?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "12",
-																"title" : "12"
-															},
-															{
-																"name" : "16",
-																"title" : "16"
-															},
-															{
-																"name" : "20",
-																"title" : "20"
-															}
-														]
-													},
-													{
-														"name" : "wb_width",
-														"title" : "Whiteboard Width?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "full_width",
-																"title" : "Full Width"
-															},
-															{
-																"name" : "offset",
-																"title" : "Offset"
-															}
-														]
-													},
-													{
-														"name" : "wb_panel_acrylic",
-														"title" : "Would You Like Acrylic Above Whiteboard?",
-														"type" : "select",
-														"requiredField" : "true",
-														"values" : [
-															{
-																"name" : "yes",
-																"title" : "Yes",
-																"children" : [
-																	{
-																		"name" : "spine_panel_ac_height",
-																		"title" : "Acrylic Above Laminate Screen Height?",
-																		"type" : "select",
-																		"requiredField" : "true",
-																		"values" : [
-																			{
-																				"name" : "6",
-																				"title" : "6",
-																				"children" : []
-																			},
-																			{
-																				"name" : "8",
-																				"title" : "8"
-																			},
-																			{
-																				"name" : "12",
-																				"title" : "12"
-																			}
-																		]
-																	}
-																]
-															},
-															{
-																"name" : "no",
-																"title" : "No"
-															}
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"name" : "electrical",
-						"title" : "Would you like to add Electrical?",
-						"type" : "select",
-						"requiredField" : "true",
-						"values" : [
-							{
-								"name" : "yes",
-								"title" : "Yes",
-								"children" : [
-									{
-										"name" : "outlets",
-										"title" : "How Many Outlets Per Seat?",
-										"type" : "select",
-										"requiredField" : "true",
-										"values" : [
-											{
-												"name" : "2",
-												"title" : "2"
-											},
-											{
-												"name" : "4",
-												"title" : "4"
-											}
-										]
-									}
-								]
-							},
-							{
-								"name" : "no",
-								"title" : "No"
-							}
-						]
-					},
-					{
-						"section" : "Storage"
-					},
-					{
-						"name" : "desk_pedestal_1",
-						"title" : "Desk Pedestal",
-						"type" : "select",
-						"values" : [
-							{
-								"name" : "SPED-PD",
-								"title" : "Pencil Drawer Pedestal",
-								"image" : "image/catalog/builder-images/SPED-PD.png"
-							},
-							{
-								"name" : "SPED-BF",
-								"title" : "Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BF.png"
-							},
-							{
-								"name" : "SPED-HBF",
-								"title" : "Hanging Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-HBF.png"
-							},
-							{
-								"name" : "SPED-BBF",
-								"title" : "Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BBF.png"
-							},
-							{
-								"name" : "SPED-FF",
-								"title" : "File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-FF.png"
-							},
-							{
-								"name" : "SPED-MBF",
-								"title" : "Mobile-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBF.png"
-							},
-							{
-								"name" : "SPED-MBBF",
-								"title" : "Mobile-Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MBBF.png"
-							},
-							{
-								"name" : "SPED-MFF",
-								"title" : "Mobile-File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-MFF.png"
-							}
-						]
-					}
-				]
-			}
-		]
-	}
+  {
+    "name": "product_group",
+    "title": "Product Group",
+    "type": "input",
+    "inputType": "text",
+    "requiredField": "true"
+  },
+  {
+    "name": "bench_style",
+    "title": "Bench Style",
+    "type": "select",
+    "requiredField": "true",
+    "values": [
+      {
+        "name": "java",
+        "title": "JAVA-LAMINATE BASE",
+        "children": [
+          {
+            "name": "layout",
+            "title": "Layout",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "single",
+                "title": "Single",
+                "children": [
+                  {
+                    "name": "divider",
+                    "title": "Do You want Desk Acrylic Screens?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "yes",
+                        "title": "Yes"
+                      },
+                      {
+                        "name": "no",
+                        "title": "No"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "1",
+                        "title": "1"
+                      },
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "3",
+                        "title": "3"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "5",
+                        "title": "5"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "7",
+                        "title": "7"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "9",
+                        "title": "9"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "double",
+                "title": "Double",
+                "children": [
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      },
+                      {
+                        "name": "12",
+                        "title": "12"
+                      },
+                      {
+                        "name": "14",
+                        "title": "14"
+                      },
+                      {
+                        "name": "16",
+                        "title": "16"
+                      },
+                      {
+                        "name": "18",
+                        "title": "18"
+                      },
+                      {
+                        "name": "20",
+                        "title": "20"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "grommet",
+            "title": "Worksurface Grommet",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "center",
+                "title": "Center"
+              },
+              {
+                "name": "lr",
+                "title": "L/R"
+              }
+            ]
+          },
+          {
+            "name": "left_end",
+            "title": "Left End Height",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "low",
+                "title": "Low"
+              },
+              {
+                "name": "high",
+                "title": "High"
+              }
+            ]
+          },
+          {
+            "name": "right_end",
+            "title": "Right End Height",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "low",
+                "title": "Low"
+              },
+              {
+                "name": "high",
+                "title": "High"
+              }
+            ]
+          },
+          {
+            "name": "power_source",
+            "title": "Power Source",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "left_side",
+                "title": "Left Side"
+              },
+              {
+                "name": "right_side",
+                "title": "Right Side"
+              }
+            ]
+          },
+          {
+            "name": "tackboard",
+            "title": "Add Tackboards?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes"
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "panel_acrylic",
+            "title": "Add Acrylic Screens on Panels?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "panel_ac_height",
+                    "title": "Screen Height",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "12",
+                        "title": "12"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "electrical",
+            "title": "Add Electrical?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "outlets",
+                    "title": "How Many Outlets Per Seat?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "panel_height",
+            "title": "Panel Height",
+            "min": "36",
+            "max": "50",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "desk_width",
+            "title": "Desk Width",
+            "min": "36",
+            "max": "72",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "desk_depth",
+            "title": "Desk Depth",
+            "min": "23",
+            "max": "30",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "modesty",
+            "title": "Modesty",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "12",
+                "title": "12"
+              },
+              {
+                "name": "28",
+                "title": "28"
+              }
+            ]
+          },
+          {
+            "section": "Storage"
+          },
+          {
+            "name": "desk_pedestal_1",
+            "title": "Desk Pedestal",
+            "type": "select",
+            "values": [
+              {
+                "name": "SPED-PD",
+                "title": "Pencil Drawer Pedestal",
+                "image": "image/catalog/builder-images/SPED-PD.png"
+              },
+              {
+                "name": "SPED-BF",
+                "title": "Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BF.png"
+              },
+              {
+                "name": "SPED-HBF",
+                "title": "Hanging Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-HBF.png"
+              },
+              {
+                "name": "SPED-BBF",
+                "title": "Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BBF.png"
+              },
+              {
+                "name": "SPED-FF",
+                "title": "File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-FF.png"
+              },
+              {
+                "name": "SPED-MBF",
+                "title": "Mobile-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBF.png"
+              },
+              {
+                "name": "SPED-MBBF",
+                "title": "Mobile-Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBBF.png"
+              },
+              {
+                "name": "SPED-MFF",
+                "title": "Mobile-File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MFF.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ruby",
+        "title": "RUBY-LAMINATE BASE",
+        "children": [
+          {
+            "section": "General Parameters"
+          },
+          {
+            "name": "layout",
+            "title": "Layout",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "single",
+                "title": "Single",
+                "children": [
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "1",
+                        "title": "1"
+                      },
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "3",
+                        "title": "3"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "5",
+                        "title": "5"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "7",
+                        "title": "7"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "9",
+                        "title": "9"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "double",
+                "title": "Double",
+                "children": [
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      },
+                      {
+                        "name": "12",
+                        "title": "12"
+                      },
+                      {
+                        "name": "14",
+                        "title": "14"
+                      },
+                      {
+                        "name": "16",
+                        "title": "16"
+                      },
+                      {
+                        "name": "18",
+                        "title": "18"
+                      },
+                      {
+                        "name": "20",
+                        "title": "20"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "grommet",
+            "title": "Worksurface Grommet",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "center",
+                "title": "Center"
+              },
+              {
+                "name": "lr",
+                "title": "L/R"
+              }
+            ]
+          },
+          {
+            "name": "power_source",
+            "title": "Power Source",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "left_side",
+                "title": "Left Side"
+              },
+              {
+                "name": "right_side",
+                "title": "Right Side"
+              }
+            ]
+          },
+          {
+            "name": "tackboard",
+            "title": "Add Tackboards?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes"
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "panel_acrylic",
+            "title": "Add Acrylic Screens on Panels?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "panel_ac_height",
+                    "title": "Screen Height",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "12",
+                        "title": "12"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "electrical",
+            "title": "Add Electrical?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "outlets",
+                    "title": "How Many Outlets Per Seat?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "panel_height",
+            "title": "Panel Height",
+            "min": "36",
+            "max": "50",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "desk_width",
+            "title": "Desk Width",
+            "min": "36",
+            "max": "72",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "desk_depth",
+            "title": "Desk Depth",
+            "min": "23",
+            "max": "30",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "modesty",
+            "title": "Modesty",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "12",
+                "title": "12"
+              },
+              {
+                "name": "28",
+                "title": "28"
+              }
+            ]
+          },
+          {
+            "section": "Storage"
+          },
+          {
+            "name": "desk_pedestal_1",
+            "title": "Desk Pedestal",
+            "type": "select",
+            "values": [
+              {
+                "name": "SPED-PD",
+                "title": "Pencil Drawer Pedestal",
+                "image": "image/catalog/builder-images/SPED-PD.png"
+              },
+              {
+                "name": "SPED-BF",
+                "title": "Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BF.png"
+              },
+              {
+                "name": "SPED-HBF",
+                "title": "Hanging Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-HBF.png"
+              },
+              {
+                "name": "SPED-BBF",
+                "title": "Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BBF.png"
+              },
+              {
+                "name": "SPED-FF",
+                "title": "File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-FF.png"
+              },
+              {
+                "name": "SPED-MBF",
+                "title": "Mobile-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBF.png"
+              },
+              {
+                "name": "SPED-MBBF",
+                "title": "Mobile-Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBBF.png"
+              },
+              {
+                "name": "SPED-MFF",
+                "title": "Mobile-File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MFF.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "jade",
+        "title": "JADA-METAL BASE",
+        "children": [
+          {
+            "section": "General Parameters"
+          },
+          {
+            "name": "leg_style",
+            "title": "Leg Style",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "o_leg",
+                "title": "O-LEG"
+              },
+              {
+                "name": "n_leg",
+                "title": "N-LEG"
+              },
+              {
+                "name": "v_leg",
+                "title": "V-LEG"
+              }
+            ]
+          },
+          {
+            "name": "layout",
+            "title": "Layout",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "single",
+                "title": "Single",
+                "children": [
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "1",
+                        "title": "1"
+                      },
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "3",
+                        "title": "3"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "5",
+                        "title": "5"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "7",
+                        "title": "7"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "9",
+                        "title": "9"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "double",
+                "title": "Double",
+                "children": [
+                  {
+                    "name": "seats",
+                    "title": "How Manny Seats?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      },
+                      {
+                        "name": "6",
+                        "title": "6"
+                      },
+                      {
+                        "name": "8",
+                        "title": "8"
+                      },
+                      {
+                        "name": "10",
+                        "title": "10"
+                      },
+                      {
+                        "name": "12",
+                        "title": "12"
+                      },
+                      {
+                        "name": "14",
+                        "title": "14"
+                      },
+                      {
+                        "name": "16",
+                        "title": "16"
+                      },
+                      {
+                        "name": "18",
+                        "title": "18"
+                      },
+                      {
+                        "name": "20",
+                        "title": "20"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "grommet",
+            "title": "Worksurface Grommet",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "center",
+                "title": "Center"
+              },
+              {
+                "name": "lr",
+                "title": "L/R"
+              }
+            ]
+          },
+          {
+            "name": "desk_width",
+            "title": "Desk Width",
+            "min": "36",
+            "max": "72",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "name": "desk_depth",
+            "title": "Desk Depth",
+            "min": "23",
+            "max": "30",
+            "type": "input",
+            "inputType": "number",
+            "requiredField": "true"
+          },
+          {
+            "section": "Spine Parameters"
+          },
+          {
+            "name": "spine_screen",
+            "title": "Do you want Screens on the Spine?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "spine_screen_type",
+                    "title": "Laminate or Acrylic?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "acrylic",
+                        "title": "Acrylic",
+                        "children": [
+                          {
+                            "name": "spine_ac_height",
+                            "title": "Spine Acrylic Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "spine_ac_width",
+                            "title": "Spine Acrylic Screen width?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "full_width",
+                                "title": "Full Width"
+                              },
+                              {
+                                "name": "offset",
+                                "title": "Offset"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "laminate",
+                        "title": "Laminate",
+                        "children": [
+                          {
+                            "name": "spine_lam_height",
+                            "title": "Laminate Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "spine_lam_width",
+                            "title": "Laminate Screen Width?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "full_width",
+                                "title": "Full Width"
+                              },
+                              {
+                                "name": "offset",
+                                "title": "Offset"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "spine_tackboard",
+                            "title": "Would You Like to Add Tackboards?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes"
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "spine_panel_acrylic",
+                            "title": "Would You Like Acrylic Above Laminate?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "spine_panel_ac_height",
+                                    "title": "Acrylic Above Laminate Screen Height?",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "6",
+                                        "title": "6",
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "8",
+                                        "title": "8"
+                                      },
+                                      {
+                                        "name": "12",
+                                        "title": "12"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "accessories",
+                            "title": "Would You Like to Add Aaccessories?",
+                            "type": "select",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "tray",
+                                    "title": "Please Choose Tray",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "pencil",
+                                        "title": "Pencil Tray"
+                                      },
+                                      {
+                                        "name": "paper",
+                                        "title": "Letter Tray"
+                                      },
+                                      {
+                                        "name": "file",
+                                        "title": "File Hanger"
+                                      },
+                                      {
+                                        "name": "paper-file",
+                                        "title": "Paper and File  Tray"
+                                      },
+                                      {
+                                        "name": "paper-pencil",
+                                        "title": "Paper and Pencil Tray"
+                                      },
+                                      {
+                                        "name": "file-pancel",
+                                        "title": "File and Pencil Tray"
+                                      },
+                                      {
+                                        "name": "paper-paper",
+                                        "title": "2 paper Tray's"
+                                      },
+                                      {
+                                        "name": "pencil-pencil",
+                                        "title": "2 Pencil Tray's"
+                                      },
+                                      {
+                                        "name": "file-file",
+                                        "title": "2 File Holder's"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "section": "Wing Parameters"
+          },
+          {
+            "name": "wing_screen",
+            "title": "Would You Like to add  Screens on the Wing?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "wing_screen_type",
+                    "title": "Laminate or Acrylic?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "acrylic",
+                        "title": "Acrylic",
+                        "children": [
+                          {
+                            "name": "wing_ac_height",
+                            "title": "Spine Acrylic Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "laminate",
+                        "title": "Laminate",
+                        "children": [
+                          {
+                            "name": "wing_lam_height",
+                            "title": "Laminate Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "wing_tackboard",
+                            "title": "Add Tackboards?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes"
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "wing_panel_acrylic",
+                            "title": "Would You Like to Add Acrylic Above Laminate?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": {
+                                  "[0]": {
+                                    "name": "panel_ac_height",
+                                    "title": "Acrylic Above Laminate Screen Height?",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "6",
+                                        "title": "6",
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "8",
+                                        "title": "8"
+                                      },
+                                      {
+                                        "name": "12",
+                                        "title": "12"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "wing_panel_ac_height",
+                                    "title": "Acrylic Above Laminate Screen Height?",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "6",
+                                        "title": "6",
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "8",
+                                        "title": "8"
+                                      },
+                                      {
+                                        "name": "12",
+                                        "title": "12"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "electrical",
+            "title": "Would You Like to Add Electrical?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "outlets",
+                    "title": "How Many Outlets Per Seat?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "section": "Storage"
+          },
+          {
+            "name": "desk_pedestal_1",
+            "title": "Desk Pedestal",
+            "type": "select",
+            "values": [
+              {
+                "name": "SPED-PD",
+                "title": "Pencil Drawer Pedestal",
+                "image": "image/catalog/builder-images/SPED-PD.png"
+              },
+              {
+                "name": "SPED-BF",
+                "title": "Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BF.png"
+              },
+              {
+                "name": "SPED-HBF",
+                "title": "Hanging Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-HBF.png"
+              },
+              {
+                "name": "SPED-BBF",
+                "title": "Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BBF.png"
+              },
+              {
+                "name": "SPED-FF",
+                "title": "File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-FF.png"
+              },
+              {
+                "name": "SPED-MBF",
+                "title": "Mobile-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBF.png"
+              },
+              {
+                "name": "SPED-MBBF",
+                "title": "Mobile-Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBBF.png"
+              },
+              {
+                "name": "SPED-MFF",
+                "title": "Mobile-File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MFF.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "120d",
+        "title": "120° BENCH",
+        "children": [
+          {
+            "name": "layout",
+            "title": "Layout",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "3_person",
+                "title": "3 Person",
+                "image": "image/catalog/builder-images/l120-layout-1.png",
+                "model_3d": "image/catalog/builder-3D-models/120-test/120-test1.dae"
+              },
+              {
+                "name": "3_person_et",
+                "title": "3 Person + End Table",
+                "image": "image/catalog/builder-images/l120-layout-2.png",
+                "model_3d": "image/catalog/builder-3D-models/120-test/120-02.obj",
+                "children": [
+                  {
+                    "name": "end_table_style",
+                    "title": "End Table Style",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "rectangular",
+                        "title": "Rectangular",
+                        "image": "image/catalog/builder-images/l120-layout-2.png",
+                        "children": [
+                          {
+                            "name": "et_depth",
+                            "title": "End Table Depth",
+                            "min": "18",
+                            "max": "30",
+                            "type": "input",
+                            "inputType": "number",
+                            "requiredField": "true"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "half_moon",
+                        "title": "Half Moon",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      },
+                      {
+                        "name": "radius_corner",
+                        "title": "Radius Corner",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "6_person",
+                "title": "6 Person",
+                "image": "image/catalog/builder-images/l120-layout-2.png"
+              },
+              {
+                "name": "6_person_br",
+                "title": "6 Person + Bridge",
+                "image": "image/catalog/builder-images/l120-layout-2.png",
+                "children": [
+                  {
+                    "name": "bridge_width",
+                    "title": "Bridge Width",
+                    "min": "24",
+                    "max": "72",
+                    "type": "input",
+                    "inputType": "number",
+                    "requiredField": "true"
+                  }
+                ]
+              },
+              {
+                "name": "6_person_et",
+                "title": "6 Person + End Table",
+                "image": "image/catalog/builder-images/l120-layout-2.png",
+                "children": [
+                  {
+                    "name": "end_table_style",
+                    "title": "End Table Style",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "rectangular",
+                        "title": "Rectangular",
+                        "image": "image/catalog/builder-images/l120-layout-2.png",
+                        "children": [
+                          {
+                            "name": "et_depth",
+                            "title": "End Table Depth",
+                            "min": "18",
+                            "max": "30",
+                            "type": "input",
+                            "inputType": "number",
+                            "requiredField": "true"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "half_moon",
+                        "title": "Half Moon",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      },
+                      {
+                        "name": "radius_corner",
+                        "title": "Radius Corner",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "6_person_et_br",
+                "title": "6 Person + End Table + Bridge",
+                "image": "image/catalog/builder-images/l120-layout-2.png",
+                "children": [
+                  {
+                    "name": "end_table_style",
+                    "title": "End Table Style",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "rectangular",
+                        "title": "Rectangular",
+                        "image": "image/catalog/builder-images/l120-layout-2.png",
+                        "children": [
+                          {
+                            "name": "et_depth",
+                            "title": "End Table Depth",
+                            "min": "18",
+                            "max": "30",
+                            "type": "input",
+                            "inputType": "number",
+                            "requiredField": "true"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "half_moon",
+                        "title": "Half Moon",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      },
+                      {
+                        "name": "radius_corner",
+                        "title": "Radius Corner",
+                        "image": "image/catalog/builder-images/l120-layout-2.png"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "bridge_width",
+                    "title": "Bridge Width",
+                    "min": "24",
+                    "max": "72",
+                    "type": "input",
+                    "inputType": "number",
+                    "requiredField": "true"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "base",
+            "title": "Base",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "laminate",
+                "title": "Laminate",
+                "children": [
+                  {
+                    "name": "modesty",
+                    "title": "Modesty",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "12",
+                        "title": "12"
+                      },
+                      {
+                        "name": "28",
+                        "title": "28"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "metal",
+                "title": "Metal",
+                "children": [
+                  {
+                    "name": "leg_style",
+                    "title": "Leg Style?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "o_leg",
+                        "title": "O-LEG"
+                      },
+                      {
+                        "name": "n_leg",
+                        "title": "N-LEG"
+                      },
+                      {
+                        "name": "v_leg",
+                        "title": "V-LEG"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "desk_size",
+            "title": "Desk Size",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "36",
+                "title": "36"
+              },
+              {
+                "name": "42",
+                "title": "42"
+              },
+              {
+                "name": "48",
+                "title": "48"
+              }
+            ]
+          },
+          {
+            "section": "Divider & Screens"
+          },
+          {
+            "name": "screen",
+            "title": "Do you want divider screens?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "screen_type",
+                    "title": "Please choose screen style",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "acrylic",
+                        "title": "Acrylic",
+                        "children": [
+                          {
+                            "name": "divider_ac_height",
+                            "title": "Acrylic Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "divider_ac_width",
+                            "title": "Acrylic Screen width?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "full_width",
+                                "title": "Full Width"
+                              },
+                              {
+                                "name": "offset",
+                                "title": "Offset"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "laminate",
+                        "title": "Laminate",
+                        "children": [
+                          {
+                            "name": "lam_height",
+                            "title": "Laminate Screen Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "lam_width",
+                            "title": "Laminate Screen Width?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "full_width",
+                                "title": "Full Width"
+                              },
+                              {
+                                "name": "offset",
+                                "title": "Offset"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "tackboard",
+                            "title": "Would you like to add Tackboards?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes"
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "panel_acrylic",
+                            "title": "Would you like Acrylic above Laminate Screen?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "panel_ac_height",
+                                    "title": "Acrylic Above Laminate Screen Height?",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "6",
+                                        "title": "6",
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "8",
+                                        "title": "8"
+                                      },
+                                      {
+                                        "name": "12",
+                                        "title": "12"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "accessories",
+                            "title": "Would You Like to Add Aaccessories?",
+                            "type": "select",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "tray",
+                                    "title": "Please Choose Tray",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "pencil",
+                                        "title": "Pencil Tray"
+                                      },
+                                      {
+                                        "name": "paper",
+                                        "title": "Letter Tray"
+                                      },
+                                      {
+                                        "name": "file",
+                                        "title": "File Hanger"
+                                      },
+                                      {
+                                        "name": "paper-file",
+                                        "title": "Paper and File  Tray"
+                                      },
+                                      {
+                                        "name": "paper-pencil",
+                                        "title": "Paper and Pencil Tray"
+                                      },
+                                      {
+                                        "name": "file-pancel",
+                                        "title": "File and Pencil Tray"
+                                      },
+                                      {
+                                        "name": "paper-paper",
+                                        "title": "2 paper Tray's"
+                                      },
+                                      {
+                                        "name": "pencil-pencil",
+                                        "title": "2 Pencil Tray's"
+                                      },
+                                      {
+                                        "name": "file-file",
+                                        "title": "2 File Holder's"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "white_board",
+                        "title": "Whiteboard",
+                        "children": [
+                          {
+                            "name": "wb_height",
+                            "title": "Whiteboard Height?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "12",
+                                "title": "12"
+                              },
+                              {
+                                "name": "16",
+                                "title": "16"
+                              },
+                              {
+                                "name": "20",
+                                "title": "20"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "wb_width",
+                            "title": "Whiteboard Width?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "full_width",
+                                "title": "Full Width"
+                              },
+                              {
+                                "name": "offset",
+                                "title": "Offset"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "wb_panel_acrylic",
+                            "title": "Would You Like Acrylic Above Whiteboard?",
+                            "type": "select",
+                            "requiredField": "true",
+                            "values": [
+                              {
+                                "name": "yes",
+                                "title": "Yes",
+                                "children": [
+                                  {
+                                    "name": "spine_panel_ac_height",
+                                    "title": "Acrylic Above Laminate Screen Height?",
+                                    "type": "select",
+                                    "requiredField": "true",
+                                    "values": [
+                                      {
+                                        "name": "6",
+                                        "title": "6",
+                                        "children": []
+                                      },
+                                      {
+                                        "name": "8",
+                                        "title": "8"
+                                      },
+                                      {
+                                        "name": "12",
+                                        "title": "12"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "no",
+                                "title": "No"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "name": "electrical",
+            "title": "Would you like to add Electrical?",
+            "type": "select",
+            "requiredField": "true",
+            "values": [
+              {
+                "name": "yes",
+                "title": "Yes",
+                "children": [
+                  {
+                    "name": "outlets",
+                    "title": "How Many Outlets Per Seat?",
+                    "type": "select",
+                    "requiredField": "true",
+                    "values": [
+                      {
+                        "name": "2",
+                        "title": "2"
+                      },
+                      {
+                        "name": "4",
+                        "title": "4"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "no",
+                "title": "No"
+              }
+            ]
+          },
+          {
+            "section": "Storage"
+          },
+          {
+            "name": "desk_pedestal_1",
+            "title": "Desk Pedestal",
+            "type": "select",
+            "values": [
+              {
+                "name": "SPED-PD",
+                "title": "Pencil Drawer Pedestal",
+                "image": "image/catalog/builder-images/SPED-PD.png"
+              },
+              {
+                "name": "SPED-BF",
+                "title": "Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BF.png"
+              },
+              {
+                "name": "SPED-HBF",
+                "title": "Hanging Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-HBF.png"
+              },
+              {
+                "name": "SPED-BBF",
+                "title": "Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-BBF.png"
+              },
+              {
+                "name": "SPED-FF",
+                "title": "File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-FF.png"
+              },
+              {
+                "name": "SPED-MBF",
+                "title": "Mobile-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBF.png"
+              },
+              {
+                "name": "SPED-MBBF",
+                "title": "Mobile-Box-Box-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MBBF.png"
+              },
+              {
+                "name": "SPED-MFF",
+                "title": "Mobile-File-File Pedestal",
+                "image": "image/catalog/builder-images/SPED-MFF.png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

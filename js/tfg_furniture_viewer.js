@@ -50,10 +50,13 @@ function init() {
 
   //RENDERER
 
-  // renderer = new THREE.WebGLRenderer();
-  renderer = new THREE.WebGLRenderer( { alpha: true } ); // init like this
-  renderer.setClearColor( 0xffffff, 0 );
-  // renderer = new THREE.WebGLRenderer({alpha: true, canvas: container});
+  renderer = new THREE.WebGLRenderer(
+    {
+      alpha: true,
+      preserveDrawingBuffer: true
+    }
+  );
+  renderer.setClearColor(0xffffff, 0);
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(container.clientWidth, container.clientHeight);
   container.appendChild(renderer.domElement);
@@ -102,26 +105,63 @@ function render() {
 
 }
 
-async function loadFurniture(url) {
+function loadFurniture(url) {
   scene.remove(furniture);
-  // loading manager
-  var loadingManager = new THREE.LoadingManager(async function () {
 
-    await scene.add(furniture);
+  // var myRegex = /(.+)(\.\w+$)/;
+  var myRegex = /([^/]+)(\.\w+$)/;
+  var fileRegex = /^.+\//;
+  var filePath = fileRegex.exec(url)[0];
+  var fileName = myRegex.exec(url)[1];
+  var fileExtension = myRegex.exec(url)[2];
 
-  });
+  switch (fileExtension) {
+    // Collada DAE
+    case ".dae":
+      // loading manager
+      var loadingManager = new THREE.LoadingManager(function () {
+        scene.add(furniture);
+      });
 
-  // collada
-  var loader = new THREE.ColladaLoader(loadingManager);
-  loader.load(url, function (collada) {
+      var loader = new THREE.ColladaLoader(loadingManager);
+      loader.load(url, function (collada) {
+        furniture = collada.scene;
+        update3D();
+        $(".customizer").addClass("open")
+      });
+      break;
+    // OBJ MTL
+    case ".obj":
+      var onProgress = function (xhr) {
+        if (xhr.lengthComputable) {
+          var percentComplete = xhr.loaded / xhr.total * 100;
+          console.log(Math.round(percentComplete, 2) + '% downloaded');
+        }
+      };
+      var onError = function () {
+      };
+      THREE.Loader.Handlers.add(/\.dds$/i, new THREE.DDSLoader());
 
-    furniture = collada.scene;
+      new THREE.MTLLoader()
+        .setPath(filePath)
+        .load(fileName + '.mtl', function (materials) {
+          materials.preload();
+          new THREE.OBJLoader()
+            .setMaterials(materials)
+            .setPath(filePath)
+            .load(fileName + '.obj', function (object) {
+              furniture = object;
+              scene.add(furniture);
+              // update3D();
+              $(".customizer").addClass("open")
+            }, onProgress, onError);
+        });
+      break;
+    default:
+    // code block
+  }
 
-    for (var i = 0; i < furniture.children.length; i++) {
-      furniture.children[i].visible = false;
-    }
 
-  });
 }
 
 function updateFurniture(layers) {
@@ -137,4 +177,31 @@ function updateFurniture(layers) {
   }
 }
 
-// loadFurniture("3D-models/test-desk/l-shaped-right.dae");
+function saveAsImage() {
+  var imgData, imgNode;
+  var strDownloadMime = "image/octet-stream";
+  try {
+    var strMime = "image/jpeg";
+    imgData = renderer.domElement.toDataURL(strMime);
+
+    saveFile(imgData.replace(strMime, strDownloadMime), "furniture.jpg");
+
+  } catch (e) {
+    console.log(e);
+    return;
+  }
+
+}
+
+var saveFile = function (strData, filename) {
+  var link = document.createElement('a');
+  if (typeof link.download === 'string') {
+    document.body.appendChild(link); //Firefox requires the link to be in the body
+    link.download = filename;
+    link.href = strData;
+    link.click();
+    document.body.removeChild(link); //remove the link when done
+  } else {
+    location.replace(uri);
+  }
+};

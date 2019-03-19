@@ -125,6 +125,7 @@ function getAllUrlParams(url) {
 }
 
 var index = 0;
+
 function send() {
   index++;
   var form = $("form").serializeArray();
@@ -149,27 +150,27 @@ $("#builder-type").change(function () {
   console.log('$("input[name=\'builder\']").val() changed');
 
   app = new Vue({
-  el: '#dynamic-form',
-  data: {
-    tree: []
-  },
-  methods: {
-    getTree: function (data = null) {
-      $.ajax({
-        // url: 'http://127.0.0.1:8000/builder/form/',
-        url: $("#builder-type").val()+'.json',
-        // data: data,
-        method: 'GET',
-        success: function (data) {
-          app.tree = data;
-        },
-        error: console.log
-      });
+    el: '#dynamic-form',
+    data: {
+      tree: []
+    },
+    methods: {
+      getTree: function (data = null) {
+        $.ajax({
+          // url: 'http://127.0.0.1:8000/builder/form/',
+          url: $("#builder-type").val() + '.json',
+          // data: data,
+          method: 'GET',
+          success: function (data) {
+            app.tree = data;
+          },
+          error: console.log
+        });
+      }
     }
-  }
-});
+  });
 
-app.getTree();
+  app.getTree();
 
 });
 
@@ -187,28 +188,19 @@ $('body').on('change', 'select', function () {
   } else if ($('option:selected', this).attr('image')) {
     $('#CartWrapper #CartTopImages').append('<div id="img-' + element.attr('name') + '" class="col-md-2 text-center" style="">' + html + '</div>');
   }
-
-
-
-
 });
 
 
 $(document).ready(function () {
-
   $('body').on('change', 'select', function () {
-
-
-    // Load Model
     if ($('option:selected', this).attr('model_3d')) {
-      var promise = loadFurniture($('option:selected', this).attr('model_3d'));
-      promise.then(update3D);
+      // Load Model
+      loadFurniture($('option:selected', this).attr('model_3d'));
     } else {
-      update3D();
+      // Update Model Layers
+      // update3D();
     }
-
   });
-
 });
 
 function update3D() {
@@ -220,6 +212,12 @@ function update3D() {
   updateFurniture(layers);
 }
 
+jQuery(document).ready(function ($) {
+  "use strict";
+  $(".customizer-toggle").on("click", function () {
+    $(".customizer").toggleClass("open")
+  });
+});
 
 
 

@@ -1,0 +1,10 @@
+# OBJ Material Export by Luxion KeyShot
+
+newmtl Old Wood Planks #2
+Kd 0.3 0.3 0.3
+
+newmtl Paint Gloss Grey
+Kd 0.515023 0.515023 0.515023
+
+newmtl Cloth Weave Beige 1mm
+Kd 0.500008 0.500008 0.499992
