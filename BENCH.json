@@ -1331,8 +1331,8 @@
 						"section" : "Storage"
 					},
 					{
-						"name" : "return_storage_1",
-						"title" : "Return Storage 1",
+						"name" : "jade_storage_1",
+						"title" : "Storage",
 						"type" : "select",
 						"values" : [
 							{
@@ -1344,24 +1344,9 @@
 								"image" : "image/catalog/builder-images/SPED-PD.png"
 							},
 							{
-								"name" : "SPED-BF",
+								"name" : "SPED-BFT",
 								"title" : "Box-File Pedestal",
 								"image" : "image/catalog/builder-images/SPED-BF.png"
-							},
-							{
-								"name" : "SPED-HBF",
-								"title" : "Hanging Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-HBF.png"
-							},
-							{
-								"name" : "SPED-BBF",
-								"title" : "Box-Box-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-BBF.png"
-							},
-							{
-								"name" : "SPED-FF",
-								"title" : "File-File Pedestal",
-								"image" : "image/catalog/builder-images/SPED-FF.png"
 							},
 							{
 								"name" : "SPED-MBF",
@@ -1781,6 +1766,163 @@
 										"title" : "Storage Cabinet Width",
 										"min" : "24",
 										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name" : "additional_storage",
+						"title" : "Low Bench Credenza",
+						"type" : "select",
+						"values" : [
+							{
+								"name" : "BCR-OPEN",
+								"title" : "Open Bench Credenza\r\n",
+								"image" : "image/catalog/builder-images/BCR-OPEN.png\r\n",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BCR-BFOR",
+								"title" : "Half Open lower Bench Credenza-Right",
+								"image" : "image/catalog/builder-images/BCR-BFOR.png",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BCR-BFOL",
+								"title" : "Half Open lower Bench Credenza-Left\r\n",
+								"image" : "image/catalog/builder-images/BCR-BFOL.png",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BCR-BBFF\r\n",
+								"title" : "Double lower Bench Credenza",
+								"image" : "image/catalog/builder-images/BCR-BBFF.png\r\n",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BCR-BFHDR",
+								"title" : "Left Hinge Door lower Bench Credenza\r\n",
+								"image" : "image/catalog/builder-images/BCR-BFHDR.png\r\n",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BCR-BFHDL",
+								"title" : "Right Hinge Door lower Bench Credenza\r\n",
+								"image" : "image/catalog/builder-images/BCR-BFHDL.png\r\n",
+								"children" : [
+									{
+										"name" : "lbc_width_1",
+										"title" : "Credenza Width",
+										"min" : "60",
+										"max" : "72",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									},
+									{
+										"name" : "lbc_depth_1",
+										"title" : "Credenza Depth",
+										"min" : "19",
+										"max" : "24",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
