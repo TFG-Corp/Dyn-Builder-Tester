@@ -1331,10 +1331,13 @@
 						"section" : "Storage"
 					},
 					{
-						"name" : "desk_pedestal_1",
-						"title" : "Desk Pedestal",
+						"name" : "return_storage_1",
+						"title" : "Return Storage 1",
 						"type" : "select",
 						"values" : [
+							{
+								"optgroup_title" : "Standard Pendestals"
+							},
 							{
 								"name" : "SPED-PD",
 								"title" : "Pencil Drawer Pedestal",
@@ -1374,6 +1377,415 @@
 								"name" : "SPED-MFF",
 								"title" : "Mobile-File-File Pedestal",
 								"image" : "image/catalog/builder-images/SPED-MFF.png"
+							},
+							{
+								"optgroup_title" : "Open Pendestals"
+							},
+							{
+								"name" : "OPED-BFOR",
+								"title" : "Box-File-Open Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-BFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-BFOL",
+								"title" : "Box-File-Open Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-BFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-BBFOR",
+								"title" : "Box-Box-File-Open-Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-BBFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-BBFOL",
+								"title" : "Box-Box-File-Open-Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-BBFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-FFOR",
+								"title" : "File-File-Open-Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-FFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-FFOL",
+								"title" : "File-File-Open-Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-FFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MBFOR",
+								"title" : "Mobile-Box-File-Open-Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MBFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MBFOL",
+								"title" : "Mobile-Box-File-Open-Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MBFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MBBFOR",
+								"title" : "Mobile-Box-Box-File-Open-Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MBBFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MBBFOL",
+								"title" : "Mobile-Box-Box-File-Open-Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MBBFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MFFOR",
+								"title" : "Mobile-File-File-Open-Right Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MFFOR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "OPED-MFFOL",
+								"title" : "Mobile-File-File-Open-Left Open Pedestal",
+								"image" : "image/catalog/builder-images/OPED-MFFOL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "OPED Width",
+										"min" : "30",
+										"max" : "60",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"optgroup_title" : "Mixed Pendestals"
+							},
+							{
+								"name" : "MPED-BBL",
+								"title" : "Box-Box-Lateral Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-LL",
+								"title" : "Lateral-Lateral Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-LL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-BBBBL",
+								"title" : "Box-Box-Box-Box-Lateral Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBBBL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-BBFLR",
+								"title" : "Box-Box-File-Lateral Right Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBFLR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-BBFLL",
+								"title" : "Box-Box-File-Lateral Left Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBFLL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-BBOLR",
+								"title" : "Box-Box-Open-Lateral Right Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBOLR.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "MPED-BBOLL",
+								"title" : "Box-Box-Open-Lateral Left Mixed Pedestal",
+								"image" : "image/catalog/builder-images/MPED-BBOLL.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "MPED Width",
+										"min" : "30",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"optgroup_title" : "Storage Cabinets"
+							},
+							{
+								"name" : "HOBSC-RDHOBSC",
+								"title" : "Right Door Half Open Base  Cabinet ",
+								"image" : "image/catalog/builder-images/HOBSC-RDHOBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "12",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "HOBSC-LDHOBSC",
+								"title" : "Left Door Half Open Base  Cabinet ",
+								"image" : "image/catalog/builder-images/HOBSC-LDHOBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "12",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BSC-RDBSC",
+								"title" : "Right Door Base Storage Cabinet",
+								"image" : "image/catalog/builder-images/BSC-RDBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "12",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BSC-LDBSC",
+								"title" : "Left Door Base Storage Cabinet",
+								"image" : "image/catalog/builder-images/BSC-LDBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "12",
+										"max" : "24",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BSC-OBSC",
+								"title" : "Open Base Storage Cabinet ",
+								"image" : "image/catalog/builder-images/BSC-OBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "12",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
+							},
+							{
+								"name" : "BSC-2DBSC",
+								"title" : "2 Door Base Storage Cabinet ",
+								"image" : "image/catalog/builder-images/BSC-2DBSC.png",
+								"children" : [
+									{
+										"name" : "return_storage_width_1",
+										"title" : "Storage Cabinet Width",
+										"min" : "24",
+										"max" : "36",
+										"type" : "input",
+										"inputType" : "number",
+										"requiredField" : "true"
+									}
+								]
 							}
 						]
 					}
