@@ -46,7 +46,7 @@ function init() {
   light2.position.multiplyScalar(30);
   scene.add(light2);
 
-  scene.add(new THREE.AmbientLight(0x050505));
+  scene.add(new THREE.AmbientLight(0x555555));
 
   //RENDERER
 
