@@ -198,7 +198,7 @@ $(document).ready(function () {
       loadFurniture($('option:selected', this).attr('model_3d'));
     } else {
       // Update Model Layers
-      // update3D();
+      update3D();
     }
   });
 });

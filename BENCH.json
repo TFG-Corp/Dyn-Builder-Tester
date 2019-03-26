@@ -1811,7 +1811,7 @@
 								"name" : "3_person_et",
 								"title" : "3 Person + End Table",
 								"image" : "image/catalog/builder-images/l120-layout-2.png",
-                                "model_3d" : "image/catalog/builder-3D-models/120-test/120-02.obj",
+                                "model_3d" : "image/catalog/builder-3D-models/nissan-gt-r-nismo-dae/nissan-gt-r-nismo.dae",
 								"children" : [
 									{
 										"name" : "end_table_style",
@@ -1863,7 +1863,8 @@
 							{
 								"name" : "6_person",
 								"title" : "6 Person",
-								"image" : "image/catalog/builder-images/l120-layout-2.png"
+								"image" : "image/catalog/builder-images/l120-layout-2.png",
+                                "model_3d" : "image/catalog/builder-3D-models/nissan-gt-r-nismo-obj/nissan-gt-r-nismo.obj"
 							},
 							{
 								"name" : "6_person_br",
