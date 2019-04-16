@@ -152,7 +152,7 @@ function loadFurniture(url) {
             .load(fileName + '.obj', function (object) {
               furniture = object;
               scene.add(furniture);
-              // update3D();
+              update3D();
               $(".customizer").addClass("open")
             }, onProgress, onError);
         });
