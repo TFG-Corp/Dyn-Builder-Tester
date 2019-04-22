@@ -1947,12 +1947,13 @@
 								"name" : "3_person",
 								"title" : "3 Person",
 								"image" : "image/catalog/builder-images/l120-layout-1.png",
-								"model_3d" : "3D-models/120-key/120-03.obj"
+								"model_3d" : "image/catalog/builder-3D-models/120-test/120-test1.dae"
 							},
 							{
 								"name" : "3_person_et",
 								"title" : "3 Person + End Table",
 								"image" : "image/catalog/builder-images/l120-layout-2.png",
+                                "model_3d" : "image/catalog/builder-3D-models/car/nissan-gt-r-nismo.obj",
 								"children" : [
 									{
 										"name" : "end_table_style",

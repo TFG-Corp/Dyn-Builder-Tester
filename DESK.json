@@ -16,6 +16,7 @@
 				"name" : "single",
 				"title" : "Single",
 				"image" : "image/catalog/builder-images/Desk-Single.png",
+                "model_3d" : "image/catalog/builder-3D-models/single-desk-lam/LAM-DESK.dae",
 				"children" : [
 					{
 						"section" : "Desk Parameters"
@@ -2218,13 +2219,46 @@
 												"title" : "28"
 											}
 										]
+									},
+									{
+										"name" : "grommet",
+										"title" : "Grommet",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "no",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
 							{
 								"name" : "worksurface",
 								"title" : "Worksuraface Only",
-								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+								"children" : [
+									{
+										"name" : "grommet",
+										"title" : "Grommet",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "no",
+												"title" : "No"
+											}
+										]
+									}
+								]
 							}
 						]
 					},
