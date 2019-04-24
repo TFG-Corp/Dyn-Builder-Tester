@@ -61,7 +61,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-RF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -2122,7 +2122,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-RF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -6879,7 +6879,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-RF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -11637,7 +11637,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-RF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -14657,7 +14657,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-RF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -19569,7 +19569,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-FF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -21550,7 +21550,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-FF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -26207,7 +26207,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-FF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -30865,7 +30865,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-FF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
@@ -33805,7 +33805,7 @@
 										"requiredField" : "true",
 										"values" : [
 											{
-												"name" : "MDESK-REC",
+												"name" : "MDESK-REC-FF",
 												"title" : "Rectangular",
 												"image" : "image/catalog/builder-images/Desk-RF.png",
 												"children" : [
