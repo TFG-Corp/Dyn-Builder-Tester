@@ -11596,6 +11596,10 @@
 							{
 								"name" : "LRG",
 								"title" : "Left & Right Grommet"
+							},
+							{
+								"name" : "none",
+								"title" : "None"
 							}
 						]
 					},
@@ -14676,6 +14680,10 @@
 							{
 								"name" : "LRG",
 								"title" : "Left & Right Grommet"
+							},
+							{
+								"name" : "none",
+								"title" : "None"
 							}
 						]
 					},
