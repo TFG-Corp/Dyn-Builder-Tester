@@ -97,6 +97,30 @@
 																"title" : "28"
 															}
 														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
+															},
+															{
+																"name" : "LRG",
+																"title" : "Left & Right Grommet"
+															}
+														]
 													}
 												]
 											},
@@ -140,6 +164,30 @@
 															{
 																"name" : "28",
 																"title" : "28"
+															}
+														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
+															},
+															{
+																"name" : "LRG",
+																"title" : "Left & Right Grommet"
 															}
 														]
 													}
@@ -192,6 +240,26 @@
 															{
 																"name" : "28",
 																"title" : "28"
+															}
+														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
 															}
 														]
 													}
@@ -2205,6 +2273,26 @@
 														]
 													},
 													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
+															}
+														]
+													},
+													{
 														"section" : "Return Parameters"
 													},
 													{
@@ -2301,6 +2389,26 @@
 															{
 																"name" : "28",
 																"title" : "28"
+															}
+														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
 															}
 														]
 													},
@@ -7278,6 +7386,26 @@
 														]
 													},
 													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
+															}
+														]
+													},
+													{
 														"section" : "Return Parameters"
 													},
 													{
@@ -7374,6 +7502,26 @@
 															{
 																"name" : "28",
 																"title" : "28"
+															}
+														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
 															}
 														]
 													},
@@ -12351,6 +12499,26 @@
 														]
 													},
 													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
+															}
+														]
+													},
+													{
 														"section" : "Credenza Parameters"
 													},
 													{
@@ -17294,6 +17462,26 @@
 															{
 																"name" : "28",
 																"title" : "28"
+															}
+														]
+													},
+													{
+														"name" : "desk_grommet",
+														"title" : "Desk Grommet",
+														"type" : "select",
+														"requiredField" : "true",
+														"values" : [
+															{
+																"name" : "NG",
+																"title" : "None"
+															},
+															{
+																"name" : "LG",
+																"title" : "Left Grommet"
+															},
+															{
+																"name" : "RG",
+																"title" : "Right Grommet"
 															}
 														]
 													},
