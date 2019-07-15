@@ -16,7 +16,7 @@
 				"name" : "single",
 				"title" : "Single",
 				"image" : "image/catalog/builder-images/Desk-Single.png",
-                "model_3d" : "image/catalog/builder-3D-models/single-desk-lam/LAM-DESK.dae",
+				"model_3d" : "image/catalog/builder-3D-models/single-desk-lam/LAM-DESK.dae",
 				"children" : [
 					{
 						"section" : "Desk Parameters"
@@ -35,7 +35,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "36",
+										"min" : "60",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -60,7 +60,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "48",
+										"min" : "36",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -69,8 +69,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "20",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -2020,8 +2020,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "30",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -2036,7 +2036,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "48",
+										"min" : "36",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -2045,8 +2045,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "20",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -2221,8 +2221,8 @@
 										]
 									},
 									{
-										"name" : "grommet",
-										"title" : "Grommet",
+										"name" : "return_grommet",
+										"title" : "Return Grommet",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
@@ -2243,8 +2243,8 @@
 								"title" : "Worksuraface Only",
 								"children" : [
 									{
-										"name" : "grommet",
-										"title" : "Grommet",
+										"name" : "return_grommet",
+										"title" : "Return Grommet",
 										"type" : "select",
 										"requiredField" : "true",
 										"values" : [
@@ -6752,8 +6752,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "30",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6768,7 +6768,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "48",
+										"min" : "36",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -6777,8 +6777,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "20",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -6904,13 +6904,47 @@
 												"title" : "28"
 											}
 										]
+									},
+									{
+										"name" : "return_grommet",
+										"title" : "Return Grommet",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "no",
+												"title" : "No"
+											}
+										]
 									}
 								]
 							},
 							{
 								"name" : "worksurface",
 								"title" : "Worksuraface Only",
-								"image" : "image/catalog/builder-images/Desk-SPED-FF.png"
+								"image" : "image/catalog/builder-images/Desk-SPED-FF.png",
+								"children" : [
+									{
+										"name" : "return_grommet",
+										"title" : "Return Grommet",
+										"type" : "select",
+										"requiredField" : "true",
+										"values" : [
+											{
+												"name" : "yes",
+												"title" : "Yes"
+											},
+											{
+												"name" : "no",
+												"title" : "No"
+											}
+										]
+									}
+								]
 							}
 						]
 					},
@@ -11442,7 +11476,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "30",
+										"min" : "60",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -11451,8 +11485,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "30",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -11467,7 +11501,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "48",
+										"min" : "36",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -11476,8 +11510,8 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
-										"max" : "36",
+										"min" : "20",
+										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
 										"requiredField" : "true"
@@ -11540,6 +11574,34 @@
 					},
 					{
 						"section" : "Credenza Parameters"
+					},
+					{
+						"name" : "credenza_grommet",
+						"title" : "Credenza Grommet",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "LGR",
+								"title" : "Left Grommet"
+							},
+							{
+								"name" : "RGR",
+								"title" : "Right Grommet"
+							},
+							{
+								"name" : "CG",
+								"title" : "Center Grommet"
+							},
+							{
+								"name" : "LRG",
+								"title" : "Left & Right Grommet"
+							},
+							{
+								"name" : "none",
+								"title" : "None"
+							}
+						]
 					},
 					{
 						"name" : "credenza_width",
@@ -14377,7 +14439,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "36",
+										"min" : "60",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -14386,7 +14448,7 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
+										"min" : "30",
 										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
@@ -14402,7 +14464,7 @@
 									{
 										"name" : "desk_width",
 										"title" : "Desk Width",
-										"min" : "48",
+										"min" : "36",
 										"max" : "108",
 										"type" : "input",
 										"inputType" : "number",
@@ -14411,7 +14473,7 @@
 									{
 										"name" : "desk_depth",
 										"title" : "Desk Depth",
-										"min" : "18",
+										"min" : "20",
 										"max" : "42",
 										"type" : "input",
 										"inputType" : "number",
@@ -14541,6 +14603,22 @@
 						"section" : "Bridge Parameters"
 					},
 					{
+						"name" : "bridge_grommet",
+						"title" : "Bridge Grommet",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "yes",
+								"title" : "Yes"
+							},
+							{
+								"name" : "no",
+								"title" : "No"
+							}
+						]
+					},
+					{
 						"name" : "bridge_width",
 						"title" : "Bridge Width",
 						"min" : "24",
@@ -14580,6 +14658,34 @@
 					},
 					{
 						"section" : "Credenza Parameters"
+					},
+					{
+						"name" : "credenza_grommet",
+						"title" : "Credenza Grommet",
+						"type" : "select",
+						"requiredField" : "true",
+						"values" : [
+							{
+								"name" : "LGR",
+								"title" : "Left Grommet"
+							},
+							{
+								"name" : "RGR",
+								"title" : "Right Grommet"
+							},
+							{
+								"name" : "CG",
+								"title" : "Center Grommet"
+							},
+							{
+								"name" : "LRG",
+								"title" : "Left & Right Grommet"
+							},
+							{
+								"name" : "none",
+								"title" : "None"
+							}
+						]
 					},
 					{
 						"name" : "credenza_width",
