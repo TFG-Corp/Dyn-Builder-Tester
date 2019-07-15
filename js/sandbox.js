@@ -121,16 +121,3 @@ $("#builder-type").change(function () {
   app.getTree();
 
 });
-
-
-$(document).ready(function () {
-  $('body').on('change', 'select', function () {
-    if ($('option:selected', this).attr('model_3d')) {
-      // Load Model
-      loadFurniture($('option:selected', this).attr('model_3d'));
-    } else {
-      // Update Model Layers
-      update3D();
-    }
-  });
-});
