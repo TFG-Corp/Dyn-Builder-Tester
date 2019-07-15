@@ -171,6 +171,8 @@
 							},
 							{
 								"name" : "SPED-MBBF",
+								"additional_model_3d" : "image/catalog/builder-3D-models/single-desk-lam/Mobile-SPED.glb",
+
 								"title" : "Mobile-Box-Box-File Pedestal",
 								"image" : "image/catalog/builder-images/SPED-MBBF.png"
 							},
