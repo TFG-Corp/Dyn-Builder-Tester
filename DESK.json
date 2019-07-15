@@ -16,7 +16,7 @@
 				"name" : "single",
 				"title" : "Single",
 				"image" : "image/catalog/builder-images/Desk-Single.png",
-				"model_3d" : "image/catalog/builder-3D-models/single-desk-lam/LAM-DESK.glb",
+				"model_3d" : "image/catalog/builder-3D-models/single-desk-lam/LAM-DESK-PEDS.glb",
 				"children" : [
 					{
 						"section" : "Desk Parameters"
