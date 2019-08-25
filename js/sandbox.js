@@ -121,3 +121,6 @@ $("#builder-type").change(function () {
   app.getTree();
 
 });
+
+
+$("#builder-selections").unbind('submit');
