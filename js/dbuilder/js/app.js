@@ -29,7 +29,7 @@ Vue.component('dynamic-form-field', {
 				<option value=""> --- Please Select --- </option>
 				  <template v-for="value in item.values">
 				  <optgroup v-if="value.optgroup_title" v-bind:label="value.optgroup_title"></optgroup>
-				  <option v-if="value.name" v-bind:value="value.name" v-bind:model_3d="value.model_3d" v-bind:image="value.image">{{value.title}}</option>
+				  <option v-if="value.name" v-bind:value="value.name" v-bind:mode="value.mode" v-bind:model_3d="value.model_3d" v-bind:image="value.image">{{value.title}}</option>
 				  </template>
 			</select>
 
